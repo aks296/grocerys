@@ -70,5 +70,5 @@
     "ts-node": "^10.9.2",
     "typescript": "~5.3.3"
   },
-  "description": "DwarePe:: Grocery at your door steps"
+  "description": "doorstep:: Grocery at your door steps"
 }
