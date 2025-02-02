@@ -1,8 +1,7 @@
 {
-  "name": "dwarpe",
+  "name": "doorstep",
   "version": "0.0.1",
-  "author": "Jykra Solutions",
-  "homepage": "https://jykrasolutions.com/",
+  "author": "Seasonal Savers",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --proxy-config proxy.conf.json",
