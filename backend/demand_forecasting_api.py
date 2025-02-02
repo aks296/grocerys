@@ -1,6 +1,5 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 import joblib
-import pandas as pd
 
 # Load the trained model and encoders
 model = joblib.load("demand_forecasting_model.pkl")
@@ -8,6 +7,10 @@ label_encoders = joblib.load("label_encoders.pkl")
 
 # Initialize Flask app
 app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return render_template("index.html")
 
 @app.route("/predict", methods=["POST"])
 def predict_demand():
