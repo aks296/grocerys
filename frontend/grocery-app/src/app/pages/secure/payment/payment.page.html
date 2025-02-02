@@ -1,0 +1,47 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>payment</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-content>
+      <form [formGroup]="paymentForm">
+        <ion-item>
+          <ion-label position="floating">Card Number</ion-label>
+          <ion-input type="text" formControlName="cardNumber" placeholder="1234-5678-1209-4567" area-label="Card Number"></ion-input>
+        </ion-item>
+        <div *ngIf="paymentForm?.get('cardNumber')?.invalid && paymentForm?.get('cardNumber')?.touched">
+          Invalid card number
+        </div>
+
+        <ion-item>
+          <ion-label position="floating">Card Holder Name</ion-label>
+          <ion-input type="text" formControlName="cardHolderName" placeholder="Card Holder Name" area-label="Card Holder Name"></ion-input>
+        </ion-item>
+        <div *ngIf="paymentForm?.get('cardHolderName')?.invalid && paymentForm?.get('cardHolderName')?.touched">
+          Card holder name is required
+        </div>
+
+        <ion-item>
+          <ion-label position="floating">Expiration Date (MM/YY)</ion-label>
+          <ion-input type="text" formControlName="expirationDate" area-label="Expiration Date (MM/YY)" ></ion-input>
+        </ion-item>
+        <div *ngIf="paymentForm?.get('expirationDate')?.invalid && paymentForm?.get('expirationDate')?.touched">
+          Invalid expiration date
+        </div>
+
+        <ion-item>
+          <ion-label position="floating">CVV</ion-label>
+          <ion-input type="number" formControlName="cvv" placeholder="123" area-label="CVV"></ion-input>
+        </ion-item>
+        <div *ngIf="paymentForm?.get('cvv')?.invalid && paymentForm?.get('cvv')?.touched">
+          Invalid CVV
+        </div>
+
+        <ion-button expand="block" type="submit" [disabled]="paymentForm.invalid" (click)="redirectToOrderSuccess()">Pay &#8377;{{cartServices.totalCartValue}}</ion-button>
+      </form>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,197 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Order Details</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button
+        text=""
+        icon="arrow-back"
+        defaultHref="tabs/home"
+      ></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div *ngIf="localStorage.getItem('loggedIn'); else notAuthenticated">
+    <div
+      *ngIf="localStorage.getItem('userType')?.toLowerCase() === 'customer'"
+      class="customer-specific-section"
+    >
+      <div class="ion-padding">
+        <div class="order-status current-staus">
+          <div>
+            Estimated delivery time: <br />
+            <b>{{this.orderServices.selectedOrder.deliveryTime}}</b>
+          </div>
+          <ion-icon name="cart"></ion-icon>
+        </div>
+
+        <div class="cartHeading">
+          <h1>Your Order</h1>
+          <span>{{this.orderServices.selectedOrder.products?.length}}</span>
+        </div>
+
+        <div class="cartProductList">
+          <div
+            class="cartProductWrapper"
+            *ngFor="let product of this.orderServices.selectedOrder.products"
+          >
+            <img
+              src="../../assets/img/{{ product.productName.toLowerCase() }}.png"
+              alt="{{product.productName}}"
+            />
+
+            <div>
+              <div class="productPrice">&#8377;{{product.productPrice}}</div>
+              <div class="productName">{{product.productName}}</div>
+              <div class="productVariant">{{product.variant}}</div>
+              <div class="cartQtyAmount">
+                <div class="qtyCount">{{product.productQuantity}}</div>
+                <div class="totalAmount">
+                  &#8377;{{product.productPrice*product.productQuantity}}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="orderAmountList">
+        <div class="amountRow">
+          <div>Sub Total</div>
+          <div>&#8377;{{this.orderServices.selectedOrder?.totalOrderPrice}}</div>
+        </div>
+        <div class="amountRow">
+          <div>Delivery Charges</div>
+          <div>FREE</div>
+        </div>
+        <div class="amountRow">
+          <div>GST Tax</div>
+          <div>&#8377;{{this.orderServices.selectedOrder?.totalOrderPrice*18/100}}</div>
+        </div>
+        <div class="totalAmountRow">
+          <div>Total Amount</div>
+          <div>
+            &#8377;{{this.orderServices.selectedOrder?.totalOrderPrice+(this.orderServices.selectedOrder?.totalOrderPrice*18/100)}}
+          </div>
+        </div>
+      </div>
+
+      <div class="orderDetailsRow ion-padding-bottom ion-margin-bottom">
+        <div class="orderRow">
+          <div>Order Number</div>
+          <div>{{this.orderServices.selectedOrder?.orderId}}</div>
+        </div>
+        <div class="orderRow">
+          <div>Order Date</div>
+          <div>{{this.orderServices.selectedOrder?.orderDate}}</div>
+        </div>
+        <div class="orderRow">
+          <div>Payment Mode</div>
+          <div>Paid: Using PhonePe</div>
+        </div>
+        <div class="orderRow">
+          <div>Paid: Using PhonePe</div>
+          <div>
+            {{this.orderServices.selectedOrder?.deliveryAddress.flatNumber}},
+            {{this.orderServices.selectedOrder?.deliveryAddress.floor}},
+            {{this.orderServices.selectedOrder?.deliveryAddress.building}},
+            {{this.orderServices.selectedOrder?.deliveryAddress.city}}
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- building superwiser view -->
+
+    <div
+      *ngIf="localStorage.getItem('userType')?.toLowerCase() === 'buildingsuperwiser'"
+      class="customer-specific-section"
+    >
+      <div class="ion-padding">
+        <div class="order-status current-staus">
+          <div>
+            Estimated delivery time: <br />
+            <b>{{this.orderServices.particularFlatOrders[0]?.deliveryTime}}</b>
+          </div>
+          <ion-icon name="cart"></ion-icon>
+        </div>
+
+        <div class="cartHeading">
+          <h1>Flat Number : {{this.orderServices.particularFlatOrders[0].flatNumber}}</h1>
+          <h1>Floor : {{this.orderServices.particularFlatOrders[0].floor}}</h1>
+          <span>{{this.orderServices.particularFlatOrders?.length}}</span>
+        </div>
+
+        <div class="cartProductList">
+          <div
+            class="cartProductWrapper"
+            *ngFor="let product of this.orderServices.particularFlatOrders"
+          >
+            <img
+              src="../../assets/img/{{ product.productName.toLowerCase() }}.png"
+              alt="{{product.productName}}"
+            />
+
+            <div>
+              <div class="productPrice">&#8377;{{product.price}}</div>
+              <div class="productName">{{product.productName}}</div>
+              <div class="productVariant">{{product.variant}}</div>
+              <div class="cartQtyAmount">
+                <div class="qtyCount">{{product.quantity}}</div>
+                <div class="totalAmount">
+                  &#8377;{{product.price*product.quantity}}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="orderAmountList">
+        <div class="amountRow">
+          <div>Sub Total</div>
+          <div>&#8377;{{this.orderServices.totalPriceForParticularOrderOfFlat}}</div>
+        </div>
+        <div class="amountRow">
+          <div>Delivery Charges</div>
+          <div>FREE</div>
+        </div>
+        <div class="amountRow">
+          <div>GST Tax</div>
+          <div>&#8377;{{this.orderServices.totalPriceForParticularOrderOfFlat*18/100}}</div>
+        </div>
+        <div class="totalAmountRow">
+          <div>Total Amount</div>
+          <div>
+            &#8377;{{this.orderServices.totalPriceForParticularOrderOfFlat+(this.orderServices.totalPriceForParticularOrderOfFlat*18/100)}}
+          </div>
+        </div>
+      </div>
+
+      <div class="orderDetailsRow ion-padding-bottom ion-margin-bottom">
+        <div class="orderRow">
+          <div>Order Number</div>
+          <div>{{this.orderServices.particularFlatOrders[0].orderId}}</div>
+        </div>
+        <div class="orderRow">
+          <div>Order Date</div>
+          <div>{{this.orderServices.particularFlatOrders[0]?.orderTime}}</div>
+        </div>
+        <div class="orderRow">
+          <div>Paid: Using PhonePe</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <ng-template #notAuthenticated>
+    <!-- Not authenticated template -->
+    <div class="ion-padding">
+      <p>
+        Please <a href="#" (click)="login($event)">Login</a> to view your order
+        details.
+      </p>
+    </div>
+  </ng-template>
+</ion-content>

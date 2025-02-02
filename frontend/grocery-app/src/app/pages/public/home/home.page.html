@@ -1,0 +1,76 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="ion-padding">
+    <div class="dailyDeals">
+      <h1>Today's Best Deal</h1>
+    </div>
+    <div class="dailyDealList">
+      <div class="productWrapper" *ngFor="let product of products">
+        <div class="ion-text-center">
+          <img
+            src="../../assets/img/{{ product.name.toLowerCase() }}.png"
+            alt="{{ product.name }}"
+          />
+          <span>10% Off</span>
+        </div>
+        <div>
+          <div class="productName">{{ product.name }}</div>
+          <div class="productVariant">{{ product.variant }}</div>
+        </div>
+        <div>
+          <div class="productActionRow">
+            <div class="productPrice">
+              $ {{ product.price.toFixed(2) }}
+              <div class="oldPrice">$ {{ product.oldPrice }}</div>
+            </div>
+            <ion-button (click)="addToCart(product)">+ </ion-button>
+            {{ product.quantity }} <i class=""></i>
+            <ion-button (click)="removeFromCart(product)"> - </ion-button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--category-->
+  <div class="ion-padding">
+    <div class="dailyDeals">
+      <h1>Shop by Category</h1>
+    </div>
+
+    <div class="productCategory">
+      <div (click)="listGreenVegies()" >
+        <img src="../../assets/img/broccoli.png" alt="image" />
+        <h2>Green Vegies</h2>
+      </div>
+      <div (click)="listFruits()">
+        <img src="../../assets/img/orange.png" alt="image" />
+        <h2>Fruits</h2>
+      </div>
+      <div (click)="listDairyProducts()">
+        <img src="../../assets/img/milk.png" alt="image" />
+        <h2>Dairy</h2>
+      </div>
+      <div (click)="listFruitsVegies()">
+        <img src="../../assets/img/tomato.png" alt="image" />
+        <h2>Vegetables</h2>
+      </div>
+      <div (click)="listBakeryItems()">
+        <img src="../../assets/img/image-5.png" alt="image" />
+        <h2>Bakery</h2>
+      </div>
+      <div (click)="listFineDairyProducts()">
+        <img src="../../assets/img/milk.png" alt="image" />
+        <h2>Fine Dairy Products</h2>
+      </div>
+    </div>
+  </div>
+</ion-content>

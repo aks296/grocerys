@@ -1,0 +1,35 @@
+
+<!-- cart.component.html -->
+<ion-content [fullscreen]="true">
+  <div class="ion-padding">
+    <div class="cartHeading">
+      <h1>Item List</h1>
+      <span>{{ cartItems.length }} Item</span>
+    </div>
+    <div class="cartProductList">
+      <div class="cartProductWrapper" *ngFor="let product of cartItems">
+        <div>
+          <img
+            src="../../assets/img/{{ product.name.toLowerCase() }}.png"
+            alt="{{ product.name }}"
+          />
+        </div>
+        <div>
+          <div class="productPrice">$ {{ product.price.toFixed(2) }}</div>
+          <div class="productName">{{ product.name }}</div>
+          <div class="productVariant">{{ product.variant }}</div>
+          <div class="cartQtyAmount">
+            <ion-button (click)="cartService.addToCart(product)">+ </ion-button>
+            {{ product.quantity }} <i class=""></i>
+            <ion-button (click)="cartService.removeFromCart(product.productId)"> - </ion-button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>
+<ion-footer class="ion-padding">
+  <ion-button expand="block" (click)="redirectToCheckout()" [disabled]="cartItems.length === 0"
+    >Proceed to checkout ($ {{ this.cartService.totalCartValue }})</ion-button
+  >
+</ion-footer>

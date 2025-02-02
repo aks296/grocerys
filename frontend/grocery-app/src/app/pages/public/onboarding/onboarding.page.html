@@ -1,0 +1,47 @@
+<!-- onboarding.page.html -->
+<ion-content class="custom-content">
+  <div class="pageWrapper">
+    <div class="topWrapper"></div>
+    <div class="bottomWrapper">
+      <div class="pageHeading ion-padding">
+        <h1>Enter<br /> <span>Your Delivery Address!</span></h1>
+      </div>
+
+      <div class="pageRow ion-padding-horizontal">
+        <form [formGroup]="onboardingForm">
+          <ion-select placeholder="Select City" class="ion-margin-bottom" formControlName="city">
+            <ion-select-option value="Piscataway">Piscataway</ion-select-option>
+            <ion-select-option value="South Plainfield">South Plainfield</ion-select-option>
+            <ion-select-option value="Edison">Edison</ion-select-option>
+          </ion-select>
+          <ion-select placeholder="Select Local Area" class="ion-margin-bottom" formControlName="area">
+            <ion-select-option value="Town-10">Town-10</ion-select-option>
+            <ion-select-option value="Town-11">Town-11</ion-select-option>
+            <ion-select-option value="Town-12">Town-12</ion-select-option>
+          </ion-select>
+          <ion-select placeholder="Select Building/Apartment" class="ion-margin-bottom" formControlName="building">
+            <ion-select-option value="Area 1">Area 1</ion-select-option>
+            <ion-select-option value="Area 2">Area 2</ion-select-option>
+            <ion-select-option value="Area 3">Area 3</ion-select-option>
+          </ion-select>
+          <div class="ion-padding-top">
+            <h3>Address</h3>
+            <ion-input type="number" placeholder="Enter Flat/House Number" class="ion-margin-bottom" formControlName="flatNumber"></ion-input>
+            <ion-select placeholder="Select Floor" formControlName="floor">
+              <ion-select-option value="1">1</ion-select-option>
+              <ion-select-option value="2">2</ion-select-option>
+              <ion-select-option value="3">3</ion-select-option>
+            </ion-select>
+
+            <ion-button
+              expand="block"
+              class="ion-padding-bottom ion-margin-top"
+              (click)="redirectToPaymentPage()"
+            >Continue</ion-button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</ion-content>
+

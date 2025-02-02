@@ -1,0 +1,59 @@
+.cartHeading{
+  display: flex; flex-direction: row; justify-content: space-between; align-items: center;
+
+  h1{
+    margin: 0; font-size: 20px;
+  }
+}
+.cartProductList{
+  display: grid; grid-template-columns: 1fr; gap: 20px;
+
+  .cartProductWrapper{
+    border-bottom-color: var(--border-color);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    padding: 10px 15px;
+    display: grid; grid-template-columns: 85px 1fr; column-gap: 20px;
+    position: relative;
+
+    img{
+      width: 85px; height: auto;
+    }
+    .productPrice{
+      font-size: 13px; color: var(--ion-color-dark);
+
+      .oldPrice{
+        color: var(--product-variant-color); font-size: 11px;
+        text-decoration: line-through;
+      }
+    }
+    .productName{
+      font-size: 16px; font-weight: 600;
+      color: var(--ion-color-dark);
+      margin: 0px 0px 5px 0px;
+    }
+    .productVariant{
+      font-size: 13px; color: var(--product-variant-color); font-weight: bold;
+      margin: 5px 0px 5px 0px;
+    }
+    .cartQtyAmount{
+      position: relative;
+      display: flex; flex-direction: row; column-gap: 25px; align-items: center;
+      margin: 5px 0px 0px 0px;
+
+      ion-select {
+        &::part(container) {
+          width: 50px; height: 35px;
+          margin: 0px 0px 0px 0px;
+          border-color: var(--border-color);
+          border-width: 1px;
+          border-style: solid;
+          border-radius: 10px;
+        }
+      }
+      .totalAmount{
+        font-size: 16px; font-weight: 600;
+      }
+    }
+  }
+}

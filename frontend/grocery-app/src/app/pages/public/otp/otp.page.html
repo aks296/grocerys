@@ -1,0 +1,30 @@
+<!-- otp.page.html -->
+<ion-content [fullscreen]="true">
+  <div class="pageWrapper ion-padding">
+    <div class="pageRow ion-margin-vertical">
+      <p>We have sent a verification code to<br /><b>{{this.dataSharingService.getFormData().mobileNumber}}</b></p>
+      <form [formGroup]="otpForm">
+        <div class="otpWrapper ion-margin-bottom ion-padding-bottom">
+          <div *ngFor="let control of otpControls; let i = index">
+            <ion-input
+              [formControl]="control"
+              type="number"
+              class="loginInput"
+            ></ion-input>
+            <div
+              *ngIf="control.invalid && control.touched"
+              class="invalid-message"
+            >
+              Invalid OTP entered at position {{ i + 1 }}. Only one digit at one placeholder
+            </div>
+          </div>
+        </div>
+        <ion-button
+          expand="block"
+          (click)="redirectToHome()"
+          [disabled]="otpForm.invalid"
+        >Continue</ion-button>
+      </form>
+    </div>
+  </div>
+</ion-content>

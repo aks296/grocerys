@@ -1,0 +1,141 @@
+<ion-content [fullscreen]="true">
+  <div class="pageWrapper">
+    <div class="topWrapper"></div>
+    <div class="bottomWrapper">
+      <div class="pageHeading">
+        <h1>Welcome</h1>
+        <p>
+          <a
+            href="#"
+            [class.active]="this.dataSharingService.loginMode"
+            (click)="loginMode($event)"
+            >Login</a
+          >
+          or
+          <a
+            href="#"
+            [class.active]="!this.dataSharingService.loginMode"
+            (click)="signUpMode($event)"
+            >Signup</a
+          >
+          to continue
+        </p>
+      </div>
+
+      <div class="pageRow ion-padding-horizontal">
+        <form [formGroup]="loginForm">
+          <!-- Add name input -->
+          <ion-select
+            placeholder="Select User Type"
+            class="ion-margin-bottom"
+            formControlName="userType"
+            (ionChange)="onUserTypeChange()"
+          >
+            <ion-select-option value="Admin">Admin</ion-select-option>
+            <ion-select-option value="BuildingSuperwiser"
+              >Building-Admin</ion-select-option
+            >
+            <ion-select-option value="Customer">Customer</ion-select-option>
+          </ion-select>
+          <ion-select
+            *ngIf="!this.dataSharingService.loginMode"
+            placeholder="Select City"
+            class="ion-margin-bottom"
+            formControlName="city"
+          >
+            <ion-select-option value="Piscataway">Piscataway</ion-select-option>
+            <ion-select-option value="South Plainfield">South Plainfield</ion-select-option>
+            <ion-select-option value="Edison">Edison</ion-select-option>
+          </ion-select>
+          <ion-select
+            *ngIf="!this.dataSharingService.loginMode "
+            placeholder="Select Local Area"
+            class="ion-margin-bottom"
+            formControlName="area"
+          >
+            <ion-select-option value="Town-10">Town-10</ion-select-option>
+            <ion-select-option value="Town-11">Town-11</ion-select-option>
+            <ion-select-option value="Town-12">Town-12</ion-select-option>
+          </ion-select>
+          <ion-select
+            *ngIf="!this.dataSharingService.loginMode"
+            placeholder="Select Building/Apartment"
+            class="ion-margin-bottom"
+            formControlName="building"
+          >
+            <ion-select-option value="Area 1"
+              >Area 1</ion-select-option
+            >
+            <ion-select-option value="Area 2"
+              >Area 2</ion-select-option
+            >
+            <ion-select-option value="Area 3"
+              >Area 3</ion-select-option
+            >
+          </ion-select>
+
+          <div
+            class="ion-padding-top"
+            *ngIf="!this.dataSharingService.loginMode"
+          >
+            <h3>Address</h3>
+            <ion-input
+              type="number"
+              placeholder="Enter Flat/House Number"
+              class="ion-margin-bottom"
+              formControlName="flatNumber"
+            ></ion-input>
+            <ion-select placeholder="Select Floor" formControlName="floor" class="ion-margin-bottom">
+              <ion-select-option value="1">1</ion-select-option>
+              <ion-select-option value="2">2</ion-select-option>
+              <ion-select-option value="3">3</ion-select-option>
+            </ion-select>
+          </div>
+          <ion-input
+            *ngIf="!this.dataSharingService.loginMode"
+            formControlName="name"
+            type="text"
+            placeholder="Enter Name"
+            class="ion-padding-horizontal ion-margin-bottom"
+            [class.invalid]="loginForm.get('name')?.invalid && loginForm.get('name')?.touched"
+          ></ion-input>
+          <div
+            *ngIf="loginForm.get('name')?.invalid && loginForm.get('name')?.touched"
+            class="invalid-message"
+          >
+            Alphabetic characters and spaces allowed.
+          </div>
+
+          <ion-input
+            formControlName="mobileNumber"
+            type="number"
+            placeholder="Enter Mobile Number"
+            class="ion-padding-horizontal ion-margin-bottom"
+            [class.invalid]="loginForm.get('mobileNumber')?.invalid && loginForm.get('mobileNumber')?.touched"
+          ></ion-input>
+          <div
+            *ngIf="loginForm.get('mobileNumber')?.invalid && loginForm.get('mobileNumber')?.touched"
+            class="invalid-message"
+          >
+            10-digit Mobile number required.
+          </div>
+
+          <ion-button
+            expand="block"
+            [disabled]="loginForm.invalid"
+            (click)="redirectToOTP()"
+            >Continue</ion-button
+          >
+
+          <div class="contidionLabel">
+            By continuing you agree to our <br />
+            <span
+              ><a href="#">Terms of services</a
+              ><a href="">Privacy Policy</a></span
+            >
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</ion-content>

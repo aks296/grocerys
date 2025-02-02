@@ -1,0 +1,115 @@
+.dailyDeals {
+
+    h1 {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0px 0px 10px 0px;
+    }
+}
+
+.dailyDealList {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+    .productWrapper {
+        border-color: var(--border-color);
+        border-width: 1px;
+        border-style: solid;
+        --border-radius: 10px;
+        border-radius: 10px;
+        padding: 10px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: relative;
+
+        img {
+            width: 120px;
+            height: auto;
+        }
+
+        .productPrice {
+            font-size: 13px;
+            font-weight: bold;
+            color: var(--ion-color-dark);
+
+            .oldPrice {
+                color: var(--product-variant-color);
+                font-size: 11px;
+                text-decoration: line-through;
+            }
+        }
+
+        .productName {
+            font-size: 16px;
+            font-weight: bold;
+            color: var(--ion-color-dark);
+            margin: 0px 0px 5px 0px;
+        }
+
+        .productVariant {
+            font-size: 13px;
+            color: var(--product-variant-color);
+            margin: 5px 0px 0px 0px;
+        }
+
+        .productActionRow {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin: 5px 0px 0px 0px;
+
+            ion-button {
+                --background: var(--default-primary-button);
+                --color: var(--ion-color-primary);
+                min-height: inherit;
+
+                --border-radius: 10px;
+                --border-color: var(--ion-color-primary);
+                --border-style: solid;
+                --border-width: 1px;
+
+                --padding-top: 10px;
+                --padding-bottom: 10px;
+            }
+
+           
+        }
+
+        span {
+            background: var(--ion-color-secondary);
+            color: var(--ion-color-primary-contrast);
+            font-size: 10px;
+            line-height: 10px;
+            text-align: center;
+            padding: 5px 8px;
+            border-radius: 8px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+    }
+}
+
+.productCategory {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+
+    div {
+        border-radius: 10px;
+        background: #f3f6f4;
+        padding: 15px;
+        text-align: center;
+
+        h2 {
+            font-size: 13px;
+            font-weight: bold;
+            margin: 0px;
+        }
+    }
+
+}

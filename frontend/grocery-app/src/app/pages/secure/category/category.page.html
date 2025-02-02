@@ -1,0 +1,270 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Category</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button text="" icon="arrow-back" defaultHref="tabs/home">
+      </ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-segment (ionChange)="segmentChanged($event)" value="vegetables" color="primary">
+    <ion-segment-button value="vegetables">
+      <ion-label>
+        Vegetables
+      </ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="fruits">
+      <ion-label>
+        Fruits
+      </ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="dairy">
+      <ion-label>
+        Dairy
+      </ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="bakery">
+      <ion-label>
+        Bakery
+      </ion-label>
+    </ion-segment-button>
+  </ion-segment>
+  <div class="animate__animated animate__slideInUp animate__fast ion-padding"  *ngIf="this.categoryServices.segment === 'vegetables'">
+    <div class="dailyDealList">
+      <div class="productWrapper">
+        <div class="ion-text-center">
+          <img src="../../assets/img/broccoli.png" alt="image"/>
+          <span>10% Off</span>
+        </div>
+        <div>
+          <div class="productName">broccoli</div>
+          <div class="productVariant">1lb</div>  
+        </div>
+        <div>
+          <div class="productActionRow">
+            <div class="productPrice">$4.99</div>
+            <ion-button>Add <i class=""></i></ion-button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- <div class="productWrapper">
+        <div class="ion-text-center">
+          <img src="../../assets/img/broccoli.png" alt="image"/>
+          <span>10% Off</span>
+        </div>
+        <div>
+          <div class="productName">broccoli</div>
+          <div class="productVariant">1lb</div>  
+        </div>
+        <div>
+          <div class="productActionRow">
+            <div class="productPrice">$ 54.00</div>
+            <ion-button>Add <i class=""></i></ion-button>
+          </div>
+        </div>
+      </div>
+
+      <div class="productWrapper">
+        <div class="ion-text-center">
+          <img src="../../assets/img/broccoli.png" alt="image"/>
+          <span>10% Off</span>
+        </div>
+        <div>
+          <div class="productName">broccoli</div>
+          <div class="productVariant">1kg</div>  
+        </div>
+        <div>
+          <div class="productActionRow">
+            <div class="productPrice">$72.00 <div class="oldPrice">$90.00</div></div>
+            <ion-button>Add <i class=""></i></ion-button>
+          </div>
+        </div>
+      </div> -->
+
+    </div>
+  </div>
+  <div class="animate__animated animate__slideInUp animate__fast ion-padding" *ngIf="this.categoryServices.segment === 'fruits'">
+    <div class="dailyDealList">
+      <div class="productWrapper">
+        <div class="ion-text-center">
+          <img src="../../assets/img/orange.png" alt="image"/>
+          <span>10% Off</span>
+        </div>
+        <div>
+          <div class="productName">orange</div>
+          <div class="productVariant">1lb</div>  
+        </div>
+        <div>
+          <div class="productActionRow">
+            <div class="productPrice">$2.99</div>
+            <ion-button>Add <i class=""></i></ion-button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- <div class="productWrapper">
+        <div class="ion-text-center">
+          <img src="../../assets/img/orange.png" alt="image"/>
+          <span>10% Off</span>
+        </div>
+        <div>
+          <div class="productName">orange</div>
+          <div class="productVariant">1kg</div>  
+        </div>
+        <div>
+          <div class="productActionRow">
+            <div class="productPrice">$36.00</div>
+            <ion-button>Add <i class=""></i></ion-button>
+          </div>
+        </div>
+      </div>
+
+      <div class="productWrapper">
+        <div class="ion-text-center">
+          <img src="../../assets/img/orange.png" alt="image"/>
+          <span>10% Off</span>
+        </div>
+        <div>
+          <div class="productName">orange</div>
+          <div class="productVariant">1kg</div>  
+        </div>
+        <div>
+          <div class="productActionRow">
+            <div class="productPrice">$36.00 <div class="oldPrice">$25.00</div></div>
+            <ion-button>Add <i class=""></i></ion-button>
+          </div>
+        </div>
+      </div>
+
+      <div class="productWrapper">
+        <div class="ion-text-center">
+          <img src="../../assets/img/orange.png" alt="image"/>
+        </div>
+        <div>
+          <div class="productName">Orange</div>
+          <div class="productVariant">1kg</div>  
+        </div>
+        <div>
+          <div class="productActionRow">
+            <div class="productPrice">$36.00</div>
+            <ion-button>Add <i class=""></i></ion-button>
+          </div>
+        </div>
+      </div> -->
+
+    </div>
+  </div>
+  <div class="animate__animated animate__slideInUp animate__fast ion-padding"  *ngIf="this.categoryServices.segment === 'dairy'">
+    <div class="dailyDealList">
+      <div class="productWrapper">
+        <div class="ion-text-center">
+          <img src="../../assets/img/milk.png" alt="image"/>
+          <span>10% Off</span>
+        </div>
+        <div>
+          <div class="productName">Milk</div>
+          <div class="productVariant">1 gallon</div>  
+        </div>
+        <div>
+          <div class="productActionRow">
+            <div class="productPrice">$4.50</div>
+            <ion-button>Add <i class=""></i></ion-button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- <div class="productWrapper">
+        <div class="ion-text-center">
+          <img src="../../assets/img/milk.png" alt="image"/>
+          <span>10% Off</span>
+        </div>
+        <div>
+          <div class="productName">Milk</div>
+          <div class="productVariant">1Litre</div>  
+        </div>
+        <div>
+          <div class="productActionRow">
+            <div class="productPrice">$36.00</div>
+            <ion-button>Add <i class=""></i></ion-button>
+          </div>
+        </div>
+      </div>
+
+      <div class="productWrapper">
+        <div class="ion-text-center">
+          <img src="../../assets/img/milk.png" alt="image"/>
+          <span>10% Off</span>
+        </div>
+        <div>
+          <div class="productName">Milk</div>
+          <div class="productVariant">1Litre</div>  
+        </div>
+        <div>
+          <div class="productActionRow">
+            <div class="productPrice">$36.00 <div class="oldPrice">$25.00</div></div>
+            <ion-button>Add <i class=""></i></ion-button>
+          </div>
+        </div>
+      </div> -->
+
+    </div>
+  </div> 
+  <div class="animate__animated animate__slideInUp animate__fast ion-padding" *ngIf="this.categoryServices.segment === 'bakery'">
+    <div class="dailyDealList">
+      <div class="productWrapper">
+        <div class="ion-text-center">
+          <img src="../../assets/img/image-5.png" alt="image"/>
+          <span>10% Off</span>
+        </div>
+        <div>
+          <div class="productName">Cake</div>
+          <div class="productVariant">1lb</div>  
+        </div>
+        <div>
+          <div class="productActionRow">
+            <div class="productPrice">$6.99</div>
+            <ion-button>Add <i class=""></i></ion-button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- <div class="productWrapper">
+        <div class="ion-text-center">
+          <img src="../../assets/img/image-5.png" alt="image"/>
+          <span>10% Off</span>
+        </div>
+        <div>
+          <div class="productName">Cake</div>
+          <div class="productVariant">1 Pound </div>  
+        </div>
+        <div>
+          <div class="productActionRow">
+            <div class="productPrice">$360.00</div>
+            <ion-button>Add <i class=""></i></ion-button>
+          </div>
+        </div>
+      </div>
+
+      <div class="productWrapper">
+        <div class="ion-text-center">
+          <img src="../../assets/img/image-5.png" alt="image"/>
+          <span>10% Off</span>
+        </div>
+        <div>
+          <div class="productName">Cake</div>
+          <div class="productVariant">1 Pound</div>  
+        </div>
+        <div>
+          <div class="productActionRow">
+            <div class="productPrice">$300.00 <div class="oldPrice">$400.00</div></div>
+            <ion-button>Add <i class=""></i></ion-button>
+          </div>
+        </div>
+      </div> -->
+
+    </div>
+  </div>
+</ion-content>

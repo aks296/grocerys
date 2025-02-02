@@ -1,0 +1,2282 @@
+Date,Grocery.Item,Quantity.Sold,Location,Day,Month,Weather
+2025-01-01,Bananas,41,New York,1,01,Snowy
+2025-01-01,Apples,30,New York,1,01,Snowy
+2025-01-01,Milk,28,New York,1,01,Snowy
+2025-01-01,Bread,34,Boston,1,01,Snowy
+2025-01-01,Eggs,34,Boston,1,01,Snowy
+2025-01-01,Orange Juice,26,Boston,1,01,Snowy
+2025-01-01,Rice,78,Philadelphia,1,01,Snowy
+2025-01-01,Chicken,31,Philadelphia,1,01,Snowy
+2025-01-01,Hot Chocolate,107,New York,1,01,Snowy
+2025-01-01,Soup,69,New York,1,01,Snowy
+2025-01-01,Breadsticks,27,Boston,1,01,Snowy
+2025-01-01,Potatoes,46,Philadelphia,1,01,Snowy
+2025-01-01,Beef,50,Philadelphia,1,01,Snowy
+2025-01-01,Cheese,36,New York,1,01,Snowy
+2025-01-01,Yogurt,14,Philadelphia,1,01,Snowy
+2025-01-01,Butter,21,Boston,1,01,Snowy
+2025-01-01,Cereal,27,New York,1,01,Snowy
+2025-01-01,Pasta,28,Philadelphia,1,01,Snowy
+2025-01-01,Tomatoes,43,New York,1,01,Snowy
+2025-01-01,Onions,31,Boston,1,01,Snowy
+2025-01-01,Flour,12,Philadelphia,1,01,Snowy
+2025-01-01,Sugar,28,New York,1,01,Snowy
+2025-01-01,Salt,12,Boston,1,01,Snowy
+2025-01-01,Pepper,17,Philadelphia,1,01,Snowy
+2025-01-01,Olive Oil,13,New York,1,01,Snowy
+2025-01-01,Vinegar,7,Boston,1,01,Snowy
+2025-01-01,Honey,20,Philadelphia,1,01,Snowy
+2025-01-01,Jam,19,New York,1,01,Snowy
+2025-01-01,Peanut Butter,26,Boston,1,01,Snowy
+2025-01-01,Almonds,15,Philadelphia,1,01,Snowy
+2025-01-01,Soft Drinks,12,New York,1,01,Snowy
+2025-01-01,Bell Peppers,22,Boston,1,01,Snowy
+2025-01-01,Cake Mixes,23,Philadelphia,1,01,Snowy
+2025-01-01,Carrots,28,New York,1,01,Snowy
+2025-01-01,Cooking Oil,21,Boston,1,01,Snowy
+2025-01-01,Spinach,41,Boston,1,01,Snowy
+2025-01-01,Lettuce,13,Philadelphia,1,01,Snowy
+2025-01-01,Ice Cream,7,Boston,1,01,Snowy
+2025-01-02,Bananas,15,New York,2,01,Snowy
+2025-01-02,Apples,55,New York,2,01,Snowy
+2025-01-02,Milk,13,New York,2,01,Snowy
+2025-01-02,Bread,17,Boston,2,01,Snowy
+2025-01-02,Eggs,51,Boston,2,01,Snowy
+2025-01-02,Orange Juice,2,Boston,2,01,Snowy
+2025-01-02,Rice,71,Philadelphia,2,01,Snowy
+2025-01-02,Chicken,93,Philadelphia,2,01,Snowy
+2025-01-02,Hot Chocolate,30,New York,2,01,Snowy
+2025-01-02,Soup,54,New York,2,01,Snowy
+2025-01-02,Breadsticks,43,Boston,2,01,Snowy
+2025-01-02,Potatoes,45,Philadelphia,2,01,Snowy
+2025-01-02,Beef,9,Philadelphia,2,01,Snowy
+2025-01-02,Cheese,4,New York,2,01,Snowy
+2025-01-02,Yogurt,13,Philadelphia,2,01,Snowy
+2025-01-02,Butter,8,Boston,2,01,Snowy
+2025-01-02,Cereal,20,New York,2,01,Snowy
+2025-01-02,Pasta,20,Philadelphia,2,01,Snowy
+2025-01-02,Tomatoes,19,New York,2,01,Snowy
+2025-01-02,Onions,43,Boston,2,01,Snowy
+2025-01-02,Flour,25,Philadelphia,2,01,Snowy
+2025-01-02,Sugar,25,New York,2,01,Snowy
+2025-01-02,Salt,14,Boston,2,01,Snowy
+2025-01-02,Pepper,10,Philadelphia,2,01,Snowy
+2025-01-02,Olive Oil,15,New York,2,01,Snowy
+2025-01-02,Vinegar,14,Boston,2,01,Snowy
+2025-01-02,Honey,24,Philadelphia,2,01,Snowy
+2025-01-02,Jam,4,New York,2,01,Snowy
+2025-01-02,Peanut Butter,24,Boston,2,01,Snowy
+2025-01-02,Almonds,33,Philadelphia,2,01,Snowy
+2025-01-02,Soft Drinks,15,New York,2,01,Snowy
+2025-01-02,Bell Peppers,20,Boston,2,01,Snowy
+2025-01-02,Cake Mixes,21,Philadelphia,2,01,Snowy
+2025-01-02,Carrots,23,New York,2,01,Snowy
+2025-01-02,Cooking Oil,43,Boston,2,01,Snowy
+2025-01-02,Spinach,25,Boston,2,01,Snowy
+2025-01-02,Lettuce,33,Philadelphia,2,01,Snowy
+2025-01-02,Ice Cream,9,Boston,2,01,Snowy
+2025-01-03,Bananas,42,New York,3,01,Cloudy
+2025-01-03,Apples,44,New York,3,01,Cloudy
+2025-01-03,Milk,17,New York,3,01,Cloudy
+2025-01-03,Bread,32,Boston,3,01,Cloudy
+2025-01-03,Eggs,35,Boston,3,01,Cloudy
+2025-01-03,Orange Juice,30,Boston,3,01,Cloudy
+2025-01-03,Rice,37,Philadelphia,3,01,Cloudy
+2025-01-03,Chicken,29,Philadelphia,3,01,Cloudy
+2025-01-03,Hot Chocolate,88,New York,3,01,Cloudy
+2025-01-03,Soup,94,New York,3,01,Cloudy
+2025-01-03,Breadsticks,50,Boston,3,01,Cloudy
+2025-01-03,Potatoes,33,Philadelphia,3,01,Cloudy
+2025-01-03,Beef,51,Philadelphia,3,01,Cloudy
+2025-01-03,Cheese,47,New York,3,01,Cloudy
+2025-01-03,Yogurt,7,Philadelphia,3,01,Cloudy
+2025-01-03,Butter,16,Boston,3,01,Cloudy
+2025-01-03,Cereal,34,New York,3,01,Cloudy
+2025-01-03,Pasta,26,Philadelphia,3,01,Cloudy
+2025-01-03,Tomatoes,33,New York,3,01,Cloudy
+2025-01-03,Onions,21,Boston,3,01,Cloudy
+2025-01-03,Flour,19,Philadelphia,3,01,Cloudy
+2025-01-03,Sugar,16,New York,3,01,Cloudy
+2025-01-03,Salt,11,Boston,3,01,Cloudy
+2025-01-03,Pepper,13,Philadelphia,3,01,Cloudy
+2025-01-03,Olive Oil,27,New York,3,01,Cloudy
+2025-01-03,Vinegar,9,Boston,3,01,Cloudy
+2025-01-03,Honey,3,Philadelphia,3,01,Cloudy
+2025-01-03,Jam,18,New York,3,01,Cloudy
+2025-01-03,Peanut Butter,11,Boston,3,01,Cloudy
+2025-01-03,Almonds,20,Philadelphia,3,01,Cloudy
+2025-01-03,Soft Drinks,4,New York,3,01,Cloudy
+2025-01-03,Bell Peppers,15,Boston,3,01,Cloudy
+2025-01-03,Cake Mixes,22,Philadelphia,3,01,Cloudy
+2025-01-03,Carrots,17,New York,3,01,Cloudy
+2025-01-03,Cooking Oil,40,Boston,3,01,Cloudy
+2025-01-03,Spinach,24,Boston,3,01,Cloudy
+2025-01-03,Lettuce,19,Philadelphia,3,01,Cloudy
+2025-01-03,Ice Cream,16,Boston,3,01,Cloudy
+2025-01-04,Bananas,29,New York,4,01,Snowy
+2025-01-04,Apples,44,New York,4,01,Snowy
+2025-01-04,Milk,31,New York,4,01,Snowy
+2025-01-04,Bread,10,Boston,4,01,Snowy
+2025-01-04,Eggs,18,Boston,4,01,Snowy
+2025-01-04,Orange Juice,9,Boston,4,01,Snowy
+2025-01-04,Rice,55,Philadelphia,4,01,Snowy
+2025-01-04,Chicken,28,Philadelphia,4,01,Snowy
+2025-01-04,Hot Chocolate,66,New York,4,01,Snowy
+2025-01-04,Soup,67,New York,4,01,Snowy
+2025-01-04,Breadsticks,38,Boston,4,01,Snowy
+2025-01-04,Potatoes,54,Philadelphia,4,01,Snowy
+2025-01-04,Beef,50,Philadelphia,4,01,Snowy
+2025-01-04,Cheese,24,New York,4,01,Snowy
+2025-01-04,Yogurt,19,Philadelphia,4,01,Snowy
+2025-01-04,Butter,14,Boston,4,01,Snowy
+2025-01-04,Cereal,38,New York,4,01,Snowy
+2025-01-04,Pasta,13,Philadelphia,4,01,Snowy
+2025-01-04,Tomatoes,43,New York,4,01,Snowy
+2025-01-04,Onions,38,Boston,4,01,Snowy
+2025-01-04,Flour,28,Philadelphia,4,01,Snowy
+2025-01-04,Sugar,18,New York,4,01,Snowy
+2025-01-04,Salt,21,Boston,4,01,Snowy
+2025-01-04,Pepper,5,Philadelphia,4,01,Snowy
+2025-01-04,Olive Oil,10,New York,4,01,Snowy
+2025-01-04,Vinegar,12,Boston,4,01,Snowy
+2025-01-04,Honey,18,Philadelphia,4,01,Snowy
+2025-01-04,Jam,9,New York,4,01,Snowy
+2025-01-04,Peanut Butter,43,Boston,4,01,Snowy
+2025-01-04,Almonds,14,Philadelphia,4,01,Snowy
+2025-01-04,Soft Drinks,15,New York,4,01,Snowy
+2025-01-04,Bell Peppers,22,Boston,4,01,Snowy
+2025-01-04,Cake Mixes,25,Philadelphia,4,01,Snowy
+2025-01-04,Carrots,19,New York,4,01,Snowy
+2025-01-04,Cooking Oil,30,Boston,4,01,Snowy
+2025-01-04,Spinach,22,Boston,4,01,Snowy
+2025-01-04,Lettuce,15,Philadelphia,4,01,Snowy
+2025-01-04,Ice Cream,12,Boston,4,01,Snowy
+2025-01-05,Bananas,23,New York,5,01,Sunny
+2025-01-05,Apples,27,New York,5,01,Sunny
+2025-01-05,Milk,11,New York,5,01,Sunny
+2025-01-05,Bread,27,Boston,5,01,Sunny
+2025-01-05,Eggs,42,Boston,5,01,Sunny
+2025-01-05,Orange Juice,23,Boston,5,01,Sunny
+2025-01-05,Rice,59,Philadelphia,5,01,Sunny
+2025-01-05,Chicken,69,Philadelphia,5,01,Sunny
+2025-01-05,Hot Chocolate,109,New York,5,01,Sunny
+2025-01-05,Soup,66,New York,5,01,Sunny
+2025-01-05,Breadsticks,42,Boston,5,01,Sunny
+2025-01-05,Potatoes,42,Philadelphia,5,01,Sunny
+2025-01-05,Beef,20,Philadelphia,5,01,Sunny
+2025-01-05,Cheese,19,New York,5,01,Sunny
+2025-01-05,Yogurt,7,Philadelphia,5,01,Sunny
+2025-01-05,Butter,21,Boston,5,01,Sunny
+2025-01-05,Cereal,31,New York,5,01,Sunny
+2025-01-05,Pasta,23,Philadelphia,5,01,Sunny
+2025-01-05,Tomatoes,32,New York,5,01,Sunny
+2025-01-05,Onions,27,Boston,5,01,Sunny
+2025-01-05,Flour,16,Philadelphia,5,01,Sunny
+2025-01-05,Sugar,23,New York,5,01,Sunny
+2025-01-05,Salt,12,Boston,5,01,Sunny
+2025-01-05,Pepper,15,Philadelphia,5,01,Sunny
+2025-01-05,Olive Oil,15,New York,5,01,Sunny
+2025-01-05,Vinegar,8,Boston,5,01,Sunny
+2025-01-05,Honey,25,Philadelphia,5,01,Sunny
+2025-01-05,Jam,20,New York,5,01,Sunny
+2025-01-05,Peanut Butter,16,Boston,5,01,Sunny
+2025-01-05,Almonds,18,Philadelphia,5,01,Sunny
+2025-01-05,Soft Drinks,14,New York,5,01,Sunny
+2025-01-05,Bell Peppers,21,Boston,5,01,Sunny
+2025-01-05,Cake Mixes,29,Philadelphia,5,01,Sunny
+2025-01-05,Carrots,23,New York,5,01,Sunny
+2025-01-05,Cooking Oil,16,Boston,5,01,Sunny
+2025-01-05,Spinach,38,Boston,5,01,Sunny
+2025-01-05,Lettuce,20,Philadelphia,5,01,Sunny
+2025-01-05,Ice Cream,6,Boston,5,01,Sunny
+2025-02-01,Bananas,40,New York,1,02,Cloudy
+2025-02-01,Apples,46,New York,1,02,Cloudy
+2025-02-01,Milk,26,New York,1,02,Cloudy
+2025-02-01,Bread,26,Boston,1,02,Cloudy
+2025-02-01,Eggs,39,Boston,1,02,Cloudy
+2025-02-01,Orange Juice,17,Boston,1,02,Cloudy
+2025-02-01,Rice,80,Philadelphia,1,02,Cloudy
+2025-02-01,Chicken,45,Philadelphia,1,02,Cloudy
+2025-02-01,Hot Chocolate,69,New York,1,02,Cloudy
+2025-02-01,Soup,100,New York,1,02,Cloudy
+2025-02-01,Breadsticks,30,Boston,1,02,Cloudy
+2025-02-01,Potatoes,61,Philadelphia,1,02,Cloudy
+2025-02-01,Beef,22,Philadelphia,1,02,Cloudy
+2025-02-01,Cheese,22,New York,1,02,Cloudy
+2025-02-01,Yogurt,15,Philadelphia,1,02,Cloudy
+2025-02-01,Butter,12,Boston,1,02,Cloudy
+2025-02-01,Cereal,46,New York,1,02,Cloudy
+2025-02-01,Pasta,30,Philadelphia,1,02,Cloudy
+2025-02-01,Tomatoes,31,New York,1,02,Cloudy
+2025-02-01,Onions,31,Boston,1,02,Cloudy
+2025-02-01,Flour,28,Philadelphia,1,02,Cloudy
+2025-02-01,Sugar,13,New York,1,02,Cloudy
+2025-02-01,Salt,11,Boston,1,02,Cloudy
+2025-02-01,Pepper,20,Philadelphia,1,02,Cloudy
+2025-02-01,Olive Oil,25,New York,1,02,Cloudy
+2025-02-01,Vinegar,14,Boston,1,02,Cloudy
+2025-02-01,Honey,26,Philadelphia,1,02,Cloudy
+2025-02-01,Jam,22,New York,1,02,Cloudy
+2025-02-01,Peanut Butter,31,Boston,1,02,Cloudy
+2025-02-01,Almonds,27,Philadelphia,1,02,Cloudy
+2025-02-01,Soft Drinks,13,New York,1,02,Cloudy
+2025-02-01,Bell Peppers,18,Boston,1,02,Cloudy
+2025-02-01,Cake Mixes,19,Philadelphia,1,02,Cloudy
+2025-02-01,Carrots,22,New York,1,02,Cloudy
+2025-02-01,Cooking Oil,32,Boston,1,02,Cloudy
+2025-02-01,Spinach,30,Boston,1,02,Cloudy
+2025-02-01,Lettuce,15,Philadelphia,1,02,Cloudy
+2025-02-01,Ice Cream,7,Boston,1,02,Cloudy
+2025-02-02,Bananas,36,New York,2,02,Cloudy
+2025-02-02,Apples,55,New York,2,02,Cloudy
+2025-02-02,Milk,17,New York,2,02,Cloudy
+2025-02-02,Bread,33,Boston,2,02,Cloudy
+2025-02-02,Eggs,13,Boston,2,02,Cloudy
+2025-02-02,Orange Juice,19,Boston,2,02,Cloudy
+2025-02-02,Rice,62,Philadelphia,2,02,Cloudy
+2025-02-02,Chicken,38,Philadelphia,2,02,Cloudy
+2025-02-02,Hot Chocolate,74,New York,2,02,Cloudy
+2025-02-02,Soup,18,New York,2,02,Cloudy
+2025-02-02,Breadsticks,66,Boston,2,02,Cloudy
+2025-02-02,Potatoes,42,Philadelphia,2,02,Cloudy
+2025-02-02,Beef,54,Philadelphia,2,02,Cloudy
+2025-02-02,Cheese,38,New York,2,02,Cloudy
+2025-02-02,Yogurt,12,Philadelphia,2,02,Cloudy
+2025-02-02,Butter,23,Boston,2,02,Cloudy
+2025-02-02,Cereal,11,New York,2,02,Cloudy
+2025-02-02,Pasta,23,Philadelphia,2,02,Cloudy
+2025-02-02,Tomatoes,47,New York,2,02,Cloudy
+2025-02-02,Onions,21,Boston,2,02,Cloudy
+2025-02-02,Flour,11,Philadelphia,2,02,Cloudy
+2025-02-02,Sugar,25,New York,2,02,Cloudy
+2025-02-02,Salt,15,Boston,2,02,Cloudy
+2025-02-02,Pepper,7,Philadelphia,2,02,Cloudy
+2025-02-02,Olive Oil,4,New York,2,02,Cloudy
+2025-02-02,Vinegar,5,Boston,2,02,Cloudy
+2025-02-02,Honey,16,Philadelphia,2,02,Cloudy
+2025-02-02,Jam,15,New York,2,02,Cloudy
+2025-02-02,Peanut Butter,26,Boston,2,02,Cloudy
+2025-02-02,Almonds,9,Philadelphia,2,02,Cloudy
+2025-02-02,Soft Drinks,13,New York,2,02,Cloudy
+2025-02-02,Bell Peppers,32,Boston,2,02,Cloudy
+2025-02-02,Cake Mixes,31,Philadelphia,2,02,Cloudy
+2025-02-02,Carrots,23,New York,2,02,Cloudy
+2025-02-02,Cooking Oil,18,Boston,2,02,Cloudy
+2025-02-02,Spinach,38,Boston,2,02,Cloudy
+2025-02-02,Lettuce,32,Philadelphia,2,02,Cloudy
+2025-02-02,Ice Cream,14,Boston,2,02,Cloudy
+2025-02-03,Bananas,11,New York,3,02,Sunny
+2025-02-03,Apples,7,New York,3,02,Sunny
+2025-02-03,Milk,17,New York,3,02,Sunny
+2025-02-03,Bread,10,Boston,3,02,Sunny
+2025-02-03,Eggs,47,Boston,3,02,Sunny
+2025-02-03,Orange Juice,20,Boston,3,02,Sunny
+2025-02-03,Rice,34,Philadelphia,3,02,Sunny
+2025-02-03,Chicken,51,Philadelphia,3,02,Sunny
+2025-02-03,Hot Chocolate,95,New York,3,02,Sunny
+2025-02-03,Soup,84,New York,3,02,Sunny
+2025-02-03,Breadsticks,20,Boston,3,02,Sunny
+2025-02-03,Potatoes,13,Philadelphia,3,02,Sunny
+2025-02-03,Beef,42,Philadelphia,3,02,Sunny
+2025-02-03,Cheese,27,New York,3,02,Sunny
+2025-02-03,Yogurt,20,Philadelphia,3,02,Sunny
+2025-02-03,Butter,25,Boston,3,02,Sunny
+2025-02-03,Cereal,33,New York,3,02,Sunny
+2025-02-03,Pasta,8,Philadelphia,3,02,Sunny
+2025-02-03,Tomatoes,47,New York,3,02,Sunny
+2025-02-03,Onions,63,Boston,3,02,Sunny
+2025-02-03,Flour,17,Philadelphia,3,02,Sunny
+2025-02-03,Sugar,44,New York,3,02,Sunny
+2025-02-03,Salt,24,Boston,3,02,Sunny
+2025-02-03,Pepper,17,Philadelphia,3,02,Sunny
+2025-02-03,Olive Oil,21,New York,3,02,Sunny
+2025-02-03,Vinegar,15,Boston,3,02,Sunny
+2025-02-03,Honey,25,Philadelphia,3,02,Sunny
+2025-02-03,Jam,15,New York,3,02,Sunny
+2025-02-03,Peanut Butter,25,Boston,3,02,Sunny
+2025-02-03,Almonds,34,Philadelphia,3,02,Sunny
+2025-02-03,Soft Drinks,18,New York,3,02,Sunny
+2025-02-03,Bell Peppers,12,Boston,3,02,Sunny
+2025-02-03,Cake Mixes,40,Philadelphia,3,02,Sunny
+2025-02-03,Carrots,33,New York,3,02,Sunny
+2025-02-03,Cooking Oil,54,Boston,3,02,Sunny
+2025-02-03,Spinach,29,Boston,3,02,Sunny
+2025-02-03,Lettuce,25,Philadelphia,3,02,Sunny
+2025-02-03,Ice Cream,12,Boston,3,02,Sunny
+2025-02-04,Bananas,30,New York,4,02,Rainy
+2025-02-04,Apples,52,New York,4,02,Rainy
+2025-02-04,Milk,36,New York,4,02,Rainy
+2025-02-04,Bread,24,Boston,4,02,Rainy
+2025-02-04,Eggs,32,Boston,4,02,Rainy
+2025-02-04,Orange Juice,23,Boston,4,02,Rainy
+2025-02-04,Rice,66,Philadelphia,4,02,Rainy
+2025-02-04,Chicken,64,Philadelphia,4,02,Rainy
+2025-02-04,Hot Chocolate,99,New York,4,02,Rainy
+2025-02-04,Soup,92,New York,4,02,Rainy
+2025-02-04,Breadsticks,36,Boston,4,02,Rainy
+2025-02-04,Potatoes,49,Philadelphia,4,02,Rainy
+2025-02-04,Beef,4,Philadelphia,4,02,Rainy
+2025-02-04,Cheese,29,New York,4,02,Rainy
+2025-02-04,Yogurt,7,Philadelphia,4,02,Rainy
+2025-02-04,Butter,20,Boston,4,02,Rainy
+2025-02-04,Cereal,23,New York,4,02,Rainy
+2025-02-04,Pasta,36,Philadelphia,4,02,Rainy
+2025-02-04,Tomatoes,22,New York,4,02,Rainy
+2025-02-04,Onions,17,Boston,4,02,Rainy
+2025-02-04,Flour,33,Philadelphia,4,02,Rainy
+2025-02-04,Sugar,12,New York,4,02,Rainy
+2025-02-04,Salt,18,Boston,4,02,Rainy
+2025-02-04,Pepper,17,Philadelphia,4,02,Rainy
+2025-02-04,Olive Oil,18,New York,4,02,Rainy
+2025-02-04,Vinegar,17,Boston,4,02,Rainy
+2025-02-04,Honey,12,Philadelphia,4,02,Rainy
+2025-02-04,Jam,18,New York,4,02,Rainy
+2025-02-04,Peanut Butter,23,Boston,4,02,Rainy
+2025-02-04,Almonds,17,Philadelphia,4,02,Rainy
+2025-02-04,Soft Drinks,9,New York,4,02,Rainy
+2025-02-04,Bell Peppers,25,Boston,4,02,Rainy
+2025-02-04,Cake Mixes,6,Philadelphia,4,02,Rainy
+2025-02-04,Carrots,13,New York,4,02,Rainy
+2025-02-04,Cooking Oil,28,Boston,4,02,Rainy
+2025-02-04,Spinach,31,Boston,4,02,Rainy
+2025-02-04,Lettuce,21,Philadelphia,4,02,Rainy
+2025-02-04,Ice Cream,13,Boston,4,02,Rainy
+2025-02-05,Bananas,43,New York,5,02,Cloudy
+2025-02-05,Apples,50,New York,5,02,Cloudy
+2025-02-05,Milk,14,New York,5,02,Cloudy
+2025-02-05,Bread,37,Boston,5,02,Cloudy
+2025-02-05,Eggs,39,Boston,5,02,Cloudy
+2025-02-05,Orange Juice,21,Boston,5,02,Cloudy
+2025-02-05,Rice,48,Philadelphia,5,02,Cloudy
+2025-02-05,Chicken,42,Philadelphia,5,02,Cloudy
+2025-02-05,Hot Chocolate,53,New York,5,02,Cloudy
+2025-02-05,Soup,46,New York,5,02,Cloudy
+2025-02-05,Breadsticks,58,Boston,5,02,Cloudy
+2025-02-05,Potatoes,45,Philadelphia,5,02,Cloudy
+2025-02-05,Beef,48,Philadelphia,5,02,Cloudy
+2025-02-05,Cheese,24,New York,5,02,Cloudy
+2025-02-05,Yogurt,16,Philadelphia,5,02,Cloudy
+2025-02-05,Butter,10,Boston,5,02,Cloudy
+2025-02-05,Cereal,47,New York,5,02,Cloudy
+2025-02-05,Pasta,23,Philadelphia,5,02,Cloudy
+2025-02-05,Tomatoes,33,New York,5,02,Cloudy
+2025-02-05,Onions,38,Boston,5,02,Cloudy
+2025-02-05,Flour,21,Philadelphia,5,02,Cloudy
+2025-02-05,Sugar,26,New York,5,02,Cloudy
+2025-02-05,Salt,12,Boston,5,02,Cloudy
+2025-02-05,Pepper,9,Philadelphia,5,02,Cloudy
+2025-02-05,Olive Oil,22,New York,5,02,Cloudy
+2025-02-05,Vinegar,9,Boston,5,02,Cloudy
+2025-02-05,Honey,21,Philadelphia,5,02,Cloudy
+2025-02-05,Jam,10,New York,5,02,Cloudy
+2025-02-05,Peanut Butter,25,Boston,5,02,Cloudy
+2025-02-05,Almonds,23,Philadelphia,5,02,Cloudy
+2025-02-05,Soft Drinks,17,New York,5,02,Cloudy
+2025-02-05,Bell Peppers,23,Boston,5,02,Cloudy
+2025-02-05,Cake Mixes,34,Philadelphia,5,02,Cloudy
+2025-02-05,Carrots,29,New York,5,02,Cloudy
+2025-02-05,Cooking Oil,28,Boston,5,02,Cloudy
+2025-02-05,Spinach,32,Boston,5,02,Cloudy
+2025-02-05,Lettuce,17,Philadelphia,5,02,Cloudy
+2025-02-05,Ice Cream,14,Boston,5,02,Cloudy
+2025-03-01,Bananas,46,New York,1,03,Snowy
+2025-03-01,Apples,47,New York,1,03,Snowy
+2025-03-01,Milk,26,New York,1,03,Snowy
+2025-03-01,Bread,15,Boston,1,03,Snowy
+2025-03-01,Eggs,47,Boston,1,03,Snowy
+2025-03-01,Orange Juice,22,Boston,1,03,Snowy
+2025-03-01,Rice,83,Philadelphia,1,03,Snowy
+2025-03-01,Chicken,46,Philadelphia,1,03,Snowy
+2025-03-01,Hot Chocolate,94,New York,1,03,Snowy
+2025-03-01,Soup,82,New York,1,03,Snowy
+2025-03-01,Breadsticks,24,Boston,1,03,Snowy
+2025-03-01,Potatoes,30,Philadelphia,1,03,Snowy
+2025-03-01,Beef,39,Philadelphia,1,03,Snowy
+2025-03-01,Cheese,20,New York,1,03,Snowy
+2025-03-01,Yogurt,22,Philadelphia,1,03,Snowy
+2025-03-01,Butter,20,Boston,1,03,Snowy
+2025-03-01,Cereal,46,New York,1,03,Snowy
+2025-03-01,Pasta,27,Philadelphia,1,03,Snowy
+2025-03-01,Tomatoes,30,New York,1,03,Snowy
+2025-03-01,Onions,39,Boston,1,03,Snowy
+2025-03-01,Flour,32,Philadelphia,1,03,Snowy
+2025-03-01,Sugar,34,New York,1,03,Snowy
+2025-03-01,Salt,25,Boston,1,03,Snowy
+2025-03-01,Pepper,22,Philadelphia,1,03,Snowy
+2025-03-01,Olive Oil,25,New York,1,03,Snowy
+2025-03-01,Vinegar,11,Boston,1,03,Snowy
+2025-03-01,Honey,30,Philadelphia,1,03,Snowy
+2025-03-01,Jam,19,New York,1,03,Snowy
+2025-03-01,Peanut Butter,41,Boston,1,03,Snowy
+2025-03-01,Almonds,25,Philadelphia,1,03,Snowy
+2025-03-01,Soft Drinks,11,New York,1,03,Snowy
+2025-03-01,Bell Peppers,35,Boston,1,03,Snowy
+2025-03-01,Cake Mixes,17,Philadelphia,1,03,Snowy
+2025-03-01,Carrots,27,New York,1,03,Snowy
+2025-03-01,Cooking Oil,22,Boston,1,03,Snowy
+2025-03-01,Spinach,40,Boston,1,03,Snowy
+2025-03-01,Lettuce,15,Philadelphia,1,03,Snowy
+2025-03-01,Ice Cream,16,Boston,1,03,Snowy
+2025-03-02,Bananas,19,New York,2,03,Snowy
+2025-03-02,Apples,47,New York,2,03,Snowy
+2025-03-02,Milk,13,New York,2,03,Snowy
+2025-03-02,Bread,51,Boston,2,03,Snowy
+2025-03-02,Eggs,26,Boston,2,03,Snowy
+2025-03-02,Orange Juice,17,Boston,2,03,Snowy
+2025-03-02,Rice,31,Philadelphia,2,03,Snowy
+2025-03-02,Chicken,45,Philadelphia,2,03,Snowy
+2025-03-02,Hot Chocolate,94,New York,2,03,Snowy
+2025-03-02,Soup,38,New York,2,03,Snowy
+2025-03-02,Breadsticks,75,Boston,2,03,Snowy
+2025-03-02,Potatoes,47,Philadelphia,2,03,Snowy
+2025-03-02,Beef,31,Philadelphia,2,03,Snowy
+2025-03-02,Cheese,42,New York,2,03,Snowy
+2025-03-02,Yogurt,14,Philadelphia,2,03,Snowy
+2025-03-02,Butter,11,Boston,2,03,Snowy
+2025-03-02,Cereal,30,New York,2,03,Snowy
+2025-03-02,Pasta,28,Philadelphia,2,03,Snowy
+2025-03-02,Tomatoes,35,New York,2,03,Snowy
+2025-03-02,Onions,43,Boston,2,03,Snowy
+2025-03-02,Flour,16,Philadelphia,2,03,Snowy
+2025-03-02,Sugar,6,New York,2,03,Snowy
+2025-03-02,Salt,6,Boston,2,03,Snowy
+2025-03-02,Pepper,11,Philadelphia,2,03,Snowy
+2025-03-02,Olive Oil,18,New York,2,03,Snowy
+2025-03-02,Vinegar,13,Boston,2,03,Snowy
+2025-03-02,Honey,12,Philadelphia,2,03,Snowy
+2025-03-02,Jam,24,New York,2,03,Snowy
+2025-03-02,Peanut Butter,24,Boston,2,03,Snowy
+2025-03-02,Almonds,13,Philadelphia,2,03,Snowy
+2025-03-02,Soft Drinks,23,New York,2,03,Snowy
+2025-03-02,Bell Peppers,14,Boston,2,03,Snowy
+2025-03-02,Cake Mixes,38,Philadelphia,2,03,Snowy
+2025-03-02,Carrots,34,New York,2,03,Snowy
+2025-03-02,Cooking Oil,62,Boston,2,03,Snowy
+2025-03-02,Spinach,35,Boston,2,03,Snowy
+2025-03-02,Lettuce,34,Philadelphia,2,03,Snowy
+2025-03-02,Ice Cream,16,Boston,2,03,Snowy
+2025-03-03,Bananas,22,New York,3,03,Cloudy
+2025-03-03,Apples,55,New York,3,03,Cloudy
+2025-03-03,Milk,32,New York,3,03,Cloudy
+2025-03-03,Bread,26,Boston,3,03,Cloudy
+2025-03-03,Eggs,9,Boston,3,03,Cloudy
+2025-03-03,Orange Juice,21,Boston,3,03,Cloudy
+2025-03-03,Rice,38,Philadelphia,3,03,Cloudy
+2025-03-03,Chicken,36,Philadelphia,3,03,Cloudy
+2025-03-03,Hot Chocolate,72,New York,3,03,Cloudy
+2025-03-03,Soup,104,New York,3,03,Cloudy
+2025-03-03,Breadsticks,48,Boston,3,03,Cloudy
+2025-03-03,Potatoes,25,Philadelphia,3,03,Cloudy
+2025-03-03,Beef,25,Philadelphia,3,03,Cloudy
+2025-03-03,Cheese,39,New York,3,03,Cloudy
+2025-03-03,Yogurt,14,Philadelphia,3,03,Cloudy
+2025-03-03,Butter,31,Boston,3,03,Cloudy
+2025-03-03,Cereal,29,New York,3,03,Cloudy
+2025-03-03,Pasta,23,Philadelphia,3,03,Cloudy
+2025-03-03,Tomatoes,45,New York,3,03,Cloudy
+2025-03-03,Onions,36,Boston,3,03,Cloudy
+2025-03-03,Flour,30,Philadelphia,3,03,Cloudy
+2025-03-03,Sugar,33,New York,3,03,Cloudy
+2025-03-03,Salt,29,Boston,3,03,Cloudy
+2025-03-03,Pepper,16,Philadelphia,3,03,Cloudy
+2025-03-03,Olive Oil,8,New York,3,03,Cloudy
+2025-03-03,Vinegar,14,Boston,3,03,Cloudy
+2025-03-03,Honey,20,Philadelphia,3,03,Cloudy
+2025-03-03,Jam,4,New York,3,03,Cloudy
+2025-03-03,Peanut Butter,6,Boston,3,03,Cloudy
+2025-03-03,Almonds,35,Philadelphia,3,03,Cloudy
+2025-03-03,Soft Drinks,13,New York,3,03,Cloudy
+2025-03-03,Bell Peppers,31,Boston,3,03,Cloudy
+2025-03-03,Cake Mixes,29,Philadelphia,3,03,Cloudy
+2025-03-03,Carrots,13,New York,3,03,Cloudy
+2025-03-03,Cooking Oil,7,Boston,3,03,Cloudy
+2025-03-03,Spinach,29,Boston,3,03,Cloudy
+2025-03-03,Lettuce,31,Philadelphia,3,03,Cloudy
+2025-03-03,Ice Cream,5,Boston,3,03,Cloudy
+2025-03-04,Bananas,36,New York,4,03,Snowy
+2025-03-04,Apples,44,New York,4,03,Snowy
+2025-03-04,Milk,31,New York,4,03,Snowy
+2025-03-04,Bread,11,Boston,4,03,Snowy
+2025-03-04,Eggs,34,Boston,4,03,Snowy
+2025-03-04,Orange Juice,28,Boston,4,03,Snowy
+2025-03-04,Rice,63,Philadelphia,4,03,Snowy
+2025-03-04,Chicken,41,Philadelphia,4,03,Snowy
+2025-03-04,Hot Chocolate,15,New York,4,03,Snowy
+2025-03-04,Soup,65,New York,4,03,Snowy
+2025-03-04,Breadsticks,47,Boston,4,03,Snowy
+2025-03-04,Potatoes,52,Philadelphia,4,03,Snowy
+2025-03-04,Beef,48,Philadelphia,4,03,Snowy
+2025-03-04,Cheese,29,New York,4,03,Snowy
+2025-03-04,Yogurt,15,Philadelphia,4,03,Snowy
+2025-03-04,Butter,10,Boston,4,03,Snowy
+2025-03-04,Cereal,19,New York,4,03,Snowy
+2025-03-04,Pasta,28,Philadelphia,4,03,Snowy
+2025-03-04,Tomatoes,41,New York,4,03,Snowy
+2025-03-04,Onions,15,Boston,4,03,Snowy
+2025-03-04,Flour,25,Philadelphia,4,03,Snowy
+2025-03-04,Sugar,41,New York,4,03,Snowy
+2025-03-04,Salt,19,Boston,4,03,Snowy
+2025-03-04,Pepper,10,Philadelphia,4,03,Snowy
+2025-03-04,Olive Oil,34,New York,4,03,Snowy
+2025-03-04,Vinegar,14,Boston,4,03,Snowy
+2025-03-04,Honey,24,Philadelphia,4,03,Snowy
+2025-03-04,Jam,20,New York,4,03,Snowy
+2025-03-04,Peanut Butter,42,Boston,4,03,Snowy
+2025-03-04,Almonds,13,Philadelphia,4,03,Snowy
+2025-03-04,Soft Drinks,14,New York,4,03,Snowy
+2025-03-04,Bell Peppers,9,Boston,4,03,Snowy
+2025-03-04,Cake Mixes,20,Philadelphia,4,03,Snowy
+2025-03-04,Carrots,41,New York,4,03,Snowy
+2025-03-04,Cooking Oil,55,Boston,4,03,Snowy
+2025-03-04,Spinach,48,Boston,4,03,Snowy
+2025-03-04,Lettuce,20,Philadelphia,4,03,Snowy
+2025-03-04,Ice Cream,16,Boston,4,03,Snowy
+2025-03-05,Bananas,47,New York,5,03,Sunny
+2025-03-05,Apples,27,New York,5,03,Sunny
+2025-03-05,Milk,18,New York,5,03,Sunny
+2025-03-05,Bread,37,Boston,5,03,Sunny
+2025-03-05,Eggs,44,Boston,5,03,Sunny
+2025-03-05,Orange Juice,22,Boston,5,03,Sunny
+2025-03-05,Rice,65,Philadelphia,5,03,Sunny
+2025-03-05,Chicken,62,Philadelphia,5,03,Sunny
+2025-03-05,Hot Chocolate,105,New York,5,03,Sunny
+2025-03-05,Soup,41,New York,5,03,Sunny
+2025-03-05,Breadsticks,26,Boston,5,03,Sunny
+2025-03-05,Potatoes,46,Philadelphia,5,03,Sunny
+2025-03-05,Beef,17,Philadelphia,5,03,Sunny
+2025-03-05,Cheese,20,New York,5,03,Sunny
+2025-03-05,Yogurt,15,Philadelphia,5,03,Sunny
+2025-03-05,Butter,28,Boston,5,03,Sunny
+2025-03-05,Cereal,46,New York,5,03,Sunny
+2025-03-05,Pasta,24,Philadelphia,5,03,Sunny
+2025-03-05,Tomatoes,39,New York,5,03,Sunny
+2025-03-05,Onions,47,Boston,5,03,Sunny
+2025-03-05,Flour,17,Philadelphia,5,03,Sunny
+2025-03-05,Sugar,16,New York,5,03,Sunny
+2025-03-05,Salt,11,Boston,5,03,Sunny
+2025-03-05,Pepper,21,Philadelphia,5,03,Sunny
+2025-03-05,Olive Oil,15,New York,5,03,Sunny
+2025-03-05,Vinegar,18,Boston,5,03,Sunny
+2025-03-05,Honey,24,Philadelphia,5,03,Sunny
+2025-03-05,Jam,23,New York,5,03,Sunny
+2025-03-05,Peanut Butter,27,Boston,5,03,Sunny
+2025-03-05,Almonds,34,Philadelphia,5,03,Sunny
+2025-03-05,Soft Drinks,19,New York,5,03,Sunny
+2025-03-05,Bell Peppers,31,Boston,5,03,Sunny
+2025-03-05,Cake Mixes,36,Philadelphia,5,03,Sunny
+2025-03-05,Carrots,15,New York,5,03,Sunny
+2025-03-05,Cooking Oil,24,Boston,5,03,Sunny
+2025-03-05,Spinach,18,Boston,5,03,Sunny
+2025-03-05,Lettuce,20,Philadelphia,5,03,Sunny
+2025-03-05,Ice Cream,17,Boston,5,03,Sunny
+2025-04-01,Bananas,22,New York,1,04,Rainy
+2025-04-01,Apples,39,New York,1,04,Rainy
+2025-04-01,Milk,18,New York,1,04,Rainy
+2025-04-01,Bread,30,Boston,1,04,Rainy
+2025-04-01,Eggs,41,Boston,1,04,Rainy
+2025-04-01,Orange Juice,15,Boston,1,04,Rainy
+2025-04-01,Rice,23,Philadelphia,1,04,Rainy
+2025-04-01,Chicken,31,Philadelphia,1,04,Rainy
+2025-04-01,Hot Chocolate,31,New York,1,04,Rainy
+2025-04-01,Soup,25,New York,1,04,Rainy
+2025-04-01,Soft Drinks,40,New York,1,04,Rainy
+2025-04-01,Ice Cream,75,Boston,1,04,Rainy
+2025-04-01,Breadsticks,66,Boston,1,04,Rainy
+2025-04-01,Potatoes,53,Philadelphia,1,04,Rainy
+2025-04-01,Beef,43,Philadelphia,1,04,Rainy
+2025-04-01,Cheese,33,New York,1,04,Rainy
+2025-04-01,Yogurt,49,Philadelphia,1,04,Rainy
+2025-04-01,Butter,23,Boston,1,04,Rainy
+2025-04-01,Cereal,44,New York,1,04,Rainy
+2025-04-01,Pasta,21,Philadelphia,1,04,Rainy
+2025-04-01,Tomatoes,43,New York,1,04,Rainy
+2025-04-01,Onions,48,Boston,1,04,Rainy
+2025-04-01,Flour,24,Philadelphia,1,04,Rainy
+2025-04-01,Sugar,19,New York,1,04,Rainy
+2025-04-01,Salt,29,Boston,1,04,Rainy
+2025-04-01,Pepper,25,Philadelphia,1,04,Rainy
+2025-04-01,Olive Oil,22,New York,1,04,Rainy
+2025-04-01,Vinegar,22,Boston,1,04,Rainy
+2025-04-01,Honey,14,Philadelphia,1,04,Rainy
+2025-04-01,Jam,17,New York,1,04,Rainy
+2025-04-01,Peanut Butter,44,Boston,1,04,Rainy
+2025-04-01,Almonds,29,Philadelphia,1,04,Rainy
+2025-04-01,Bell Peppers,25,Boston,1,04,Rainy
+2025-04-01,Cake Mixes,15,Philadelphia,1,04,Rainy
+2025-04-01,Carrots,14,New York,1,04,Rainy
+2025-04-01,Cooking Oil,38,Boston,1,04,Rainy
+2025-04-01,Spinach,30,Boston,1,04,Rainy
+2025-04-01,Lettuce,57,Philadelphia,1,04,Rainy
+2025-04-02,Bananas,56,New York,2,04,Rainy
+2025-04-02,Apples,43,New York,2,04,Rainy
+2025-04-02,Milk,46,New York,2,04,Rainy
+2025-04-02,Bread,44,Boston,2,04,Rainy
+2025-04-02,Eggs,15,Boston,2,04,Rainy
+2025-04-02,Orange Juice,31,Boston,2,04,Rainy
+2025-04-02,Rice,16,Philadelphia,2,04,Rainy
+2025-04-02,Chicken,33,Philadelphia,2,04,Rainy
+2025-04-02,Hot Chocolate,17,New York,2,04,Rainy
+2025-04-02,Soup,20,New York,2,04,Rainy
+2025-04-02,Soft Drinks,57,New York,2,04,Rainy
+2025-04-02,Ice Cream,31,Boston,2,04,Rainy
+2025-04-02,Breadsticks,33,Boston,2,04,Rainy
+2025-04-02,Potatoes,8,Philadelphia,2,04,Rainy
+2025-04-02,Beef,5,Philadelphia,2,04,Rainy
+2025-04-02,Cheese,20,New York,2,04,Rainy
+2025-04-02,Yogurt,72,Philadelphia,2,04,Rainy
+2025-04-02,Butter,25,Boston,2,04,Rainy
+2025-04-02,Cereal,37,New York,2,04,Rainy
+2025-04-02,Pasta,30,Philadelphia,2,04,Rainy
+2025-04-02,Tomatoes,34,New York,2,04,Rainy
+2025-04-02,Onions,35,Boston,2,04,Rainy
+2025-04-02,Flour,31,Philadelphia,2,04,Rainy
+2025-04-02,Sugar,45,New York,2,04,Rainy
+2025-04-02,Salt,13,Boston,2,04,Rainy
+2025-04-02,Pepper,9,Philadelphia,2,04,Rainy
+2025-04-02,Olive Oil,22,New York,2,04,Rainy
+2025-04-02,Vinegar,3,Boston,2,04,Rainy
+2025-04-02,Honey,24,Philadelphia,2,04,Rainy
+2025-04-02,Jam,30,New York,2,04,Rainy
+2025-04-02,Peanut Butter,2,Boston,2,04,Rainy
+2025-04-02,Almonds,27,Philadelphia,2,04,Rainy
+2025-04-02,Bell Peppers,64,Boston,2,04,Rainy
+2025-04-02,Cake Mixes,30,Philadelphia,2,04,Rainy
+2025-04-02,Carrots,19,New York,2,04,Rainy
+2025-04-02,Cooking Oil,27,Boston,2,04,Rainy
+2025-04-02,Spinach,33,Boston,2,04,Rainy
+2025-04-02,Lettuce,35,Philadelphia,2,04,Rainy
+2025-04-03,Bananas,31,New York,3,04,Cloudy
+2025-04-03,Apples,50,New York,3,04,Cloudy
+2025-04-03,Milk,11,New York,3,04,Cloudy
+2025-04-03,Bread,16,Boston,3,04,Cloudy
+2025-04-03,Eggs,40,Boston,3,04,Cloudy
+2025-04-03,Orange Juice,18,Boston,3,04,Cloudy
+2025-04-03,Rice,25,Philadelphia,3,04,Cloudy
+2025-04-03,Chicken,41,Philadelphia,3,04,Cloudy
+2025-04-03,Hot Chocolate,16,New York,3,04,Cloudy
+2025-04-03,Soup,10,New York,3,04,Cloudy
+2025-04-03,Soft Drinks,104,New York,3,04,Cloudy
+2025-04-03,Ice Cream,99,Boston,3,04,Cloudy
+2025-04-03,Breadsticks,21,Boston,3,04,Cloudy
+2025-04-03,Potatoes,70,Philadelphia,3,04,Cloudy
+2025-04-03,Beef,44,Philadelphia,3,04,Cloudy
+2025-04-03,Cheese,32,New York,3,04,Cloudy
+2025-04-03,Yogurt,61,Philadelphia,3,04,Cloudy
+2025-04-03,Butter,17,Boston,3,04,Cloudy
+2025-04-03,Cereal,14,New York,3,04,Cloudy
+2025-04-03,Pasta,23,Philadelphia,3,04,Cloudy
+2025-04-03,Tomatoes,30,New York,3,04,Cloudy
+2025-04-03,Onions,18,Boston,3,04,Cloudy
+2025-04-03,Flour,12,Philadelphia,3,04,Cloudy
+2025-04-03,Sugar,15,New York,3,04,Cloudy
+2025-04-03,Salt,25,Boston,3,04,Cloudy
+2025-04-03,Pepper,15,Philadelphia,3,04,Cloudy
+2025-04-03,Olive Oil,19,New York,3,04,Cloudy
+2025-04-03,Vinegar,26,Boston,3,04,Cloudy
+2025-04-03,Honey,44,Philadelphia,3,04,Cloudy
+2025-04-03,Jam,18,New York,3,04,Cloudy
+2025-04-03,Peanut Butter,52,Boston,3,04,Cloudy
+2025-04-03,Almonds,24,Philadelphia,3,04,Cloudy
+2025-04-03,Bell Peppers,47,Boston,3,04,Cloudy
+2025-04-03,Cake Mixes,17,Philadelphia,3,04,Cloudy
+2025-04-03,Carrots,36,New York,3,04,Cloudy
+2025-04-03,Cooking Oil,18,Boston,3,04,Cloudy
+2025-04-03,Spinach,32,Boston,3,04,Cloudy
+2025-04-03,Lettuce,12,Philadelphia,3,04,Cloudy
+2025-04-04,Bananas,19,New York,4,04,Sunny
+2025-04-04,Apples,46,New York,4,04,Sunny
+2025-04-04,Milk,41,New York,4,04,Sunny
+2025-04-04,Bread,43,Boston,4,04,Sunny
+2025-04-04,Eggs,15,Boston,4,04,Sunny
+2025-04-04,Orange Juice,21,Boston,4,04,Sunny
+2025-04-04,Rice,19,Philadelphia,4,04,Sunny
+2025-04-04,Chicken,18,Philadelphia,4,04,Sunny
+2025-04-04,Hot Chocolate,21,New York,4,04,Sunny
+2025-04-04,Soup,19,New York,4,04,Sunny
+2025-04-04,Soft Drinks,86,New York,4,04,Sunny
+2025-04-04,Ice Cream,42,Boston,4,04,Sunny
+2025-04-04,Breadsticks,49,Boston,4,04,Sunny
+2025-04-04,Potatoes,39,Philadelphia,4,04,Sunny
+2025-04-04,Beef,16,Philadelphia,4,04,Sunny
+2025-04-04,Cheese,39,New York,4,04,Sunny
+2025-04-04,Yogurt,32,Philadelphia,4,04,Sunny
+2025-04-04,Butter,26,Boston,4,04,Sunny
+2025-04-04,Cereal,35,New York,4,04,Sunny
+2025-04-04,Pasta,28,Philadelphia,4,04,Sunny
+2025-04-04,Tomatoes,72,New York,4,04,Sunny
+2025-04-04,Onions,66,Boston,4,04,Sunny
+2025-04-04,Flour,39,Philadelphia,4,04,Sunny
+2025-04-04,Sugar,43,New York,4,04,Sunny
+2025-04-04,Salt,8,Boston,4,04,Sunny
+2025-04-04,Pepper,29,Philadelphia,4,04,Sunny
+2025-04-04,Olive Oil,32,New York,4,04,Sunny
+2025-04-04,Vinegar,18,Boston,4,04,Sunny
+2025-04-04,Honey,14,Philadelphia,4,04,Sunny
+2025-04-04,Jam,10,New York,4,04,Sunny
+2025-04-04,Peanut Butter,24,Boston,4,04,Sunny
+2025-04-04,Almonds,12,Philadelphia,4,04,Sunny
+2025-04-04,Bell Peppers,9,Boston,4,04,Sunny
+2025-04-04,Cake Mixes,27,Philadelphia,4,04,Sunny
+2025-04-04,Carrots,6,New York,4,04,Sunny
+2025-04-04,Cooking Oil,27,Boston,4,04,Sunny
+2025-04-04,Spinach,23,Boston,4,04,Sunny
+2025-04-04,Lettuce,44,Philadelphia,4,04,Sunny
+2025-04-05,Bananas,52,New York,5,04,Rainy
+2025-04-05,Apples,52,New York,5,04,Rainy
+2025-04-05,Milk,14,New York,5,04,Rainy
+2025-04-05,Bread,17,Boston,5,04,Rainy
+2025-04-05,Eggs,39,Boston,5,04,Rainy
+2025-04-05,Orange Juice,35,Boston,5,04,Rainy
+2025-04-05,Rice,17,Philadelphia,5,04,Rainy
+2025-04-05,Chicken,47,Philadelphia,5,04,Rainy
+2025-04-05,Hot Chocolate,25,New York,5,04,Rainy
+2025-04-05,Soup,26,New York,5,04,Rainy
+2025-04-05,Soft Drinks,33,New York,5,04,Rainy
+2025-04-05,Ice Cream,63,Boston,5,04,Rainy
+2025-04-05,Breadsticks,61,Boston,5,04,Rainy
+2025-04-05,Potatoes,20,Philadelphia,5,04,Rainy
+2025-04-05,Beef,42,Philadelphia,5,04,Rainy
+2025-04-05,Cheese,36,New York,5,04,Rainy
+2025-04-05,Yogurt,86,Philadelphia,5,04,Rainy
+2025-04-05,Butter,19,Boston,5,04,Rainy
+2025-04-05,Cereal,50,New York,5,04,Rainy
+2025-04-05,Pasta,38,Philadelphia,5,04,Rainy
+2025-04-05,Tomatoes,21,New York,5,04,Rainy
+2025-04-05,Onions,23,Boston,5,04,Rainy
+2025-04-05,Flour,24,Philadelphia,5,04,Rainy
+2025-04-05,Sugar,18,New York,5,04,Rainy
+2025-04-05,Salt,25,Boston,5,04,Rainy
+2025-04-05,Pepper,12,Philadelphia,5,04,Rainy
+2025-04-05,Olive Oil,15,New York,5,04,Rainy
+2025-04-05,Vinegar,11,Boston,5,04,Rainy
+2025-04-05,Honey,24,Philadelphia,5,04,Rainy
+2025-04-05,Jam,25,New York,5,04,Rainy
+2025-04-05,Peanut Butter,28,Boston,5,04,Rainy
+2025-04-05,Almonds,38,Philadelphia,5,04,Rainy
+2025-04-05,Bell Peppers,55,Boston,5,04,Rainy
+2025-04-05,Cake Mixes,21,Philadelphia,5,04,Rainy
+2025-04-05,Carrots,25,New York,5,04,Rainy
+2025-04-05,Cooking Oil,30,Boston,5,04,Rainy
+2025-04-05,Spinach,22,Boston,5,04,Rainy
+2025-04-05,Lettuce,52,Philadelphia,5,04,Rainy
+2025-05-01,Bananas,50,New York,1,05,Cloudy
+2025-05-01,Apples,36,New York,1,05,Cloudy
+2025-05-01,Milk,23,New York,1,05,Cloudy
+2025-05-01,Bread,17,Boston,1,05,Cloudy
+2025-05-01,Eggs,22,Boston,1,05,Cloudy
+2025-05-01,Orange Juice,32,Boston,1,05,Cloudy
+2025-05-01,Rice,18,Philadelphia,1,05,Cloudy
+2025-05-01,Chicken,34,Philadelphia,1,05,Cloudy
+2025-05-01,Hot Chocolate,27,New York,1,05,Cloudy
+2025-05-01,Soup,32,New York,1,05,Cloudy
+2025-05-01,Soft Drinks,79,New York,1,05,Cloudy
+2025-05-01,Ice Cream,76,Boston,1,05,Cloudy
+2025-05-01,Breadsticks,52,Boston,1,05,Cloudy
+2025-05-01,Potatoes,33,Philadelphia,1,05,Cloudy
+2025-05-01,Beef,29,Philadelphia,1,05,Cloudy
+2025-05-01,Cheese,43,New York,1,05,Cloudy
+2025-05-01,Yogurt,35,Philadelphia,1,05,Cloudy
+2025-05-01,Butter,25,Boston,1,05,Cloudy
+2025-05-01,Cereal,50,New York,1,05,Cloudy
+2025-05-01,Pasta,18,Philadelphia,1,05,Cloudy
+2025-05-01,Tomatoes,47,New York,1,05,Cloudy
+2025-05-01,Onions,31,Boston,1,05,Cloudy
+2025-05-01,Flour,20,Philadelphia,1,05,Cloudy
+2025-05-01,Sugar,24,New York,1,05,Cloudy
+2025-05-01,Salt,29,Boston,1,05,Cloudy
+2025-05-01,Pepper,26,Philadelphia,1,05,Cloudy
+2025-05-01,Olive Oil,28,New York,1,05,Cloudy
+2025-05-01,Vinegar,25,Boston,1,05,Cloudy
+2025-05-01,Honey,30,Philadelphia,1,05,Cloudy
+2025-05-01,Jam,27,New York,1,05,Cloudy
+2025-05-01,Peanut Butter,38,Boston,1,05,Cloudy
+2025-05-01,Almonds,19,Philadelphia,1,05,Cloudy
+2025-05-01,Bell Peppers,35,Boston,1,05,Cloudy
+2025-05-01,Cake Mixes,11,Philadelphia,1,05,Cloudy
+2025-05-01,Carrots,24,New York,1,05,Cloudy
+2025-05-01,Cooking Oil,15,Boston,1,05,Cloudy
+2025-05-01,Spinach,35,Boston,1,05,Cloudy
+2025-05-01,Lettuce,38,Philadelphia,1,05,Cloudy
+2025-05-02,Bananas,31,New York,2,05,Rainy
+2025-05-02,Apples,44,New York,2,05,Rainy
+2025-05-02,Milk,32,New York,2,05,Rainy
+2025-05-02,Bread,40,Boston,2,05,Rainy
+2025-05-02,Eggs,42,Boston,2,05,Rainy
+2025-05-02,Orange Juice,26,Boston,2,05,Rainy
+2025-05-02,Rice,22,Philadelphia,2,05,Rainy
+2025-05-02,Chicken,21,Philadelphia,2,05,Rainy
+2025-05-02,Hot Chocolate,18,New York,2,05,Rainy
+2025-05-02,Soup,21,New York,2,05,Rainy
+2025-05-02,Soft Drinks,59,New York,2,05,Rainy
+2025-05-02,Ice Cream,29,Boston,2,05,Rainy
+2025-05-02,Breadsticks,60,Boston,2,05,Rainy
+2025-05-02,Potatoes,51,Philadelphia,2,05,Rainy
+2025-05-02,Beef,26,Philadelphia,2,05,Rainy
+2025-05-02,Cheese,39,New York,2,05,Rainy
+2025-05-02,Yogurt,111,Philadelphia,2,05,Rainy
+2025-05-02,Butter,23,Boston,2,05,Rainy
+2025-05-02,Cereal,9,New York,2,05,Rainy
+2025-05-02,Pasta,56,Philadelphia,2,05,Rainy
+2025-05-02,Tomatoes,37,New York,2,05,Rainy
+2025-05-02,Onions,54,Boston,2,05,Rainy
+2025-05-02,Flour,44,Philadelphia,2,05,Rainy
+2025-05-02,Sugar,45,New York,2,05,Rainy
+2025-05-02,Salt,25,Boston,2,05,Rainy
+2025-05-02,Pepper,20,Philadelphia,2,05,Rainy
+2025-05-02,Olive Oil,23,New York,2,05,Rainy
+2025-05-02,Vinegar,16,Boston,2,05,Rainy
+2025-05-02,Honey,22,Philadelphia,2,05,Rainy
+2025-05-02,Jam,18,New York,2,05,Rainy
+2025-05-02,Peanut Butter,31,Boston,2,05,Rainy
+2025-05-02,Almonds,33,Philadelphia,2,05,Rainy
+2025-05-02,Bell Peppers,47,Boston,2,05,Rainy
+2025-05-02,Cake Mixes,29,Philadelphia,2,05,Rainy
+2025-05-02,Carrots,11,New York,2,05,Rainy
+2025-05-02,Cooking Oil,38,Boston,2,05,Rainy
+2025-05-02,Spinach,17,Boston,2,05,Rainy
+2025-05-02,Lettuce,66,Philadelphia,2,05,Rainy
+2025-05-03,Bananas,31,New York,3,05,Sunny
+2025-05-03,Apples,59,New York,3,05,Sunny
+2025-05-03,Milk,33,New York,3,05,Sunny
+2025-05-03,Bread,32,Boston,3,05,Sunny
+2025-05-03,Eggs,29,Boston,3,05,Sunny
+2025-05-03,Orange Juice,13,Boston,3,05,Sunny
+2025-05-03,Rice,16,Philadelphia,3,05,Sunny
+2025-05-03,Chicken,50,Philadelphia,3,05,Sunny
+2025-05-03,Hot Chocolate,35,New York,3,05,Sunny
+2025-05-03,Soup,17,New York,3,05,Sunny
+2025-05-03,Soft Drinks,66,New York,3,05,Sunny
+2025-05-03,Ice Cream,94,Boston,3,05,Sunny
+2025-05-03,Breadsticks,32,Boston,3,05,Sunny
+2025-05-03,Potatoes,12,Philadelphia,3,05,Sunny
+2025-05-03,Beef,31,Philadelphia,3,05,Sunny
+2025-05-03,Cheese,5,New York,3,05,Sunny
+2025-05-03,Yogurt,10,Philadelphia,3,05,Sunny
+2025-05-03,Butter,35,Boston,3,05,Sunny
+2025-05-03,Cereal,56,New York,3,05,Sunny
+2025-05-03,Pasta,14,Philadelphia,3,05,Sunny
+2025-05-03,Tomatoes,36,New York,3,05,Sunny
+2025-05-03,Onions,35,Boston,3,05,Sunny
+2025-05-03,Flour,33,Philadelphia,3,05,Sunny
+2025-05-03,Sugar,7,New York,3,05,Sunny
+2025-05-03,Salt,8,Boston,3,05,Sunny
+2025-05-03,Pepper,19,Philadelphia,3,05,Sunny
+2025-05-03,Olive Oil,13,New York,3,05,Sunny
+2025-05-03,Vinegar,12,Boston,3,05,Sunny
+2025-05-03,Honey,20,Philadelphia,3,05,Sunny
+2025-05-03,Jam,18,New York,3,05,Sunny
+2025-05-03,Peanut Butter,18,Boston,3,05,Sunny
+2025-05-03,Almonds,27,Philadelphia,3,05,Sunny
+2025-05-03,Bell Peppers,25,Boston,3,05,Sunny
+2025-05-03,Cake Mixes,15,Philadelphia,3,05,Sunny
+2025-05-03,Carrots,18,New York,3,05,Sunny
+2025-05-03,Cooking Oil,17,Boston,3,05,Sunny
+2025-05-03,Spinach,28,Boston,3,05,Sunny
+2025-05-03,Lettuce,16,Philadelphia,3,05,Sunny
+2025-05-04,Bananas,58,New York,4,05,Rainy
+2025-05-04,Apples,54,New York,4,05,Rainy
+2025-05-04,Milk,11,New York,4,05,Rainy
+2025-05-04,Bread,44,Boston,4,05,Rainy
+2025-05-04,Eggs,24,Boston,4,05,Rainy
+2025-05-04,Orange Juice,24,Boston,4,05,Rainy
+2025-05-04,Rice,20,Philadelphia,4,05,Rainy
+2025-05-04,Chicken,27,Philadelphia,4,05,Rainy
+2025-05-04,Hot Chocolate,25,New York,4,05,Rainy
+2025-05-04,Soup,20,New York,4,05,Rainy
+2025-05-04,Soft Drinks,70,New York,4,05,Rainy
+2025-05-04,Ice Cream,72,Boston,4,05,Rainy
+2025-05-04,Breadsticks,64,Boston,4,05,Rainy
+2025-05-04,Potatoes,31,Philadelphia,4,05,Rainy
+2025-05-04,Beef,34,Philadelphia,4,05,Rainy
+2025-05-04,Cheese,51,New York,4,05,Rainy
+2025-05-04,Yogurt,103,Philadelphia,4,05,Rainy
+2025-05-04,Butter,13,Boston,4,05,Rainy
+2025-05-04,Cereal,36,New York,4,05,Rainy
+2025-05-04,Pasta,27,Philadelphia,4,05,Rainy
+2025-05-04,Tomatoes,60,New York,4,05,Rainy
+2025-05-04,Onions,23,Boston,4,05,Rainy
+2025-05-04,Flour,27,Philadelphia,4,05,Rainy
+2025-05-04,Sugar,55,New York,4,05,Rainy
+2025-05-04,Salt,16,Boston,4,05,Rainy
+2025-05-04,Pepper,17,Philadelphia,4,05,Rainy
+2025-05-04,Olive Oil,27,New York,4,05,Rainy
+2025-05-04,Vinegar,11,Boston,4,05,Rainy
+2025-05-04,Honey,20,Philadelphia,4,05,Rainy
+2025-05-04,Jam,23,New York,4,05,Rainy
+2025-05-04,Peanut Butter,28,Boston,4,05,Rainy
+2025-05-04,Almonds,41,Philadelphia,4,05,Rainy
+2025-05-04,Bell Peppers,76,Boston,4,05,Rainy
+2025-05-04,Cake Mixes,31,Philadelphia,4,05,Rainy
+2025-05-04,Carrots,12,New York,4,05,Rainy
+2025-05-04,Cooking Oil,34,Boston,4,05,Rainy
+2025-05-04,Spinach,17,Boston,4,05,Rainy
+2025-05-04,Lettuce,35,Philadelphia,4,05,Rainy
+2025-05-05,Bananas,20,New York,5,05,Rainy
+2025-05-05,Apples,47,New York,5,05,Rainy
+2025-05-05,Milk,41,New York,5,05,Rainy
+2025-05-05,Bread,27,Boston,5,05,Rainy
+2025-05-05,Eggs,23,Boston,5,05,Rainy
+2025-05-05,Orange Juice,35,Boston,5,05,Rainy
+2025-05-05,Rice,14,Philadelphia,5,05,Rainy
+2025-05-05,Chicken,48,Philadelphia,5,05,Rainy
+2025-05-05,Hot Chocolate,15,New York,5,05,Rainy
+2025-05-05,Soup,20,New York,5,05,Rainy
+2025-05-05,Soft Drinks,56,New York,5,05,Rainy
+2025-05-05,Ice Cream,49,Boston,5,05,Rainy
+2025-05-05,Breadsticks,32,Boston,5,05,Rainy
+2025-05-05,Potatoes,53,Philadelphia,5,05,Rainy
+2025-05-05,Beef,20,Philadelphia,5,05,Rainy
+2025-05-05,Cheese,32,New York,5,05,Rainy
+2025-05-05,Yogurt,51,Philadelphia,5,05,Rainy
+2025-05-05,Butter,24,Boston,5,05,Rainy
+2025-05-05,Cereal,39,New York,5,05,Rainy
+2025-05-05,Pasta,35,Philadelphia,5,05,Rainy
+2025-05-05,Tomatoes,30,New York,5,05,Rainy
+2025-05-05,Onions,57,Boston,5,05,Rainy
+2025-05-05,Flour,16,Philadelphia,5,05,Rainy
+2025-05-05,Sugar,19,New York,5,05,Rainy
+2025-05-05,Salt,32,Boston,5,05,Rainy
+2025-05-05,Pepper,18,Philadelphia,5,05,Rainy
+2025-05-05,Olive Oil,29,New York,5,05,Rainy
+2025-05-05,Vinegar,26,Boston,5,05,Rainy
+2025-05-05,Honey,38,Philadelphia,5,05,Rainy
+2025-05-05,Jam,24,New York,5,05,Rainy
+2025-05-05,Peanut Butter,45,Boston,5,05,Rainy
+2025-05-05,Almonds,20,Philadelphia,5,05,Rainy
+2025-05-05,Bell Peppers,27,Boston,5,05,Rainy
+2025-05-05,Cake Mixes,14,Philadelphia,5,05,Rainy
+2025-05-05,Carrots,25,New York,5,05,Rainy
+2025-05-05,Cooking Oil,26,Boston,5,05,Rainy
+2025-05-05,Spinach,33,Boston,5,05,Rainy
+2025-05-05,Lettuce,55,Philadelphia,5,05,Rainy
+2025-06-01,Bananas,38,New York,1,06,Sunny
+2025-06-01,Apples,31,New York,1,06,Sunny
+2025-06-01,Milk,44,New York,1,06,Sunny
+2025-06-01,Bread,50,Boston,1,06,Sunny
+2025-06-01,Eggs,16,Boston,1,06,Sunny
+2025-06-01,Orange Juice,38,Boston,1,06,Sunny
+2025-06-01,Rice,12,Philadelphia,1,06,Sunny
+2025-06-01,Chicken,38,Philadelphia,1,06,Sunny
+2025-06-01,Hot Chocolate,32,New York,1,06,Sunny
+2025-06-01,Soup,19,New York,1,06,Sunny
+2025-06-01,Soft Drinks,53,New York,1,06,Sunny
+2025-06-01,Ice Cream,66,Boston,1,06,Sunny
+2025-06-01,Breadsticks,58,Boston,1,06,Sunny
+2025-06-01,Potatoes,38,Philadelphia,1,06,Sunny
+2025-06-01,Beef,33,Philadelphia,1,06,Sunny
+2025-06-01,Cheese,45,New York,1,06,Sunny
+2025-06-01,Yogurt,36,Philadelphia,1,06,Sunny
+2025-06-01,Butter,23,Boston,1,06,Sunny
+2025-06-01,Cereal,28,New York,1,06,Sunny
+2025-06-01,Pasta,44,Philadelphia,1,06,Sunny
+2025-06-01,Tomatoes,41,New York,1,06,Sunny
+2025-06-01,Onions,61,Boston,1,06,Sunny
+2025-06-01,Flour,43,Philadelphia,1,06,Sunny
+2025-06-01,Sugar,30,New York,1,06,Sunny
+2025-06-01,Salt,16,Boston,1,06,Sunny
+2025-06-01,Pepper,26,Philadelphia,1,06,Sunny
+2025-06-01,Olive Oil,16,New York,1,06,Sunny
+2025-06-01,Vinegar,15,Boston,1,06,Sunny
+2025-06-01,Honey,30,Philadelphia,1,06,Sunny
+2025-06-01,Jam,25,New York,1,06,Sunny
+2025-06-01,Peanut Butter,45,Boston,1,06,Sunny
+2025-06-01,Almonds,43,Philadelphia,1,06,Sunny
+2025-06-01,Bell Peppers,41,Boston,1,06,Sunny
+2025-06-01,Cake Mixes,15,Philadelphia,1,06,Sunny
+2025-06-01,Carrots,13,New York,1,06,Sunny
+2025-06-01,Cooking Oil,34,Boston,1,06,Sunny
+2025-06-01,Spinach,35,Boston,1,06,Sunny
+2025-06-01,Lettuce,28,Philadelphia,1,06,Sunny
+2025-06-02,Bananas,36,New York,2,06,Rainy
+2025-06-02,Apples,81,New York,2,06,Rainy
+2025-06-02,Milk,20,New York,2,06,Rainy
+2025-06-02,Bread,15,Boston,2,06,Rainy
+2025-06-02,Eggs,45,Boston,2,06,Rainy
+2025-06-02,Orange Juice,30,Boston,2,06,Rainy
+2025-06-02,Rice,26,Philadelphia,2,06,Rainy
+2025-06-02,Chicken,45,Philadelphia,2,06,Rainy
+2025-06-02,Hot Chocolate,26,New York,2,06,Rainy
+2025-06-02,Soup,30,New York,2,06,Rainy
+2025-06-02,Soft Drinks,57,New York,2,06,Rainy
+2025-06-02,Ice Cream,87,Boston,2,06,Rainy
+2025-06-02,Breadsticks,28,Boston,2,06,Rainy
+2025-06-02,Potatoes,40,Philadelphia,2,06,Rainy
+2025-06-02,Beef,12,Philadelphia,2,06,Rainy
+2025-06-02,Cheese,28,New York,2,06,Rainy
+2025-06-02,Yogurt,108,Philadelphia,2,06,Rainy
+2025-06-02,Butter,22,Boston,2,06,Rainy
+2025-06-02,Cereal,34,New York,2,06,Rainy
+2025-06-02,Pasta,10,Philadelphia,2,06,Rainy
+2025-06-02,Tomatoes,64,New York,2,06,Rainy
+2025-06-02,Onions,7,Boston,2,06,Rainy
+2025-06-02,Flour,22,Philadelphia,2,06,Rainy
+2025-06-02,Sugar,47,New York,2,06,Rainy
+2025-06-02,Salt,35,Boston,2,06,Rainy
+2025-06-02,Pepper,11,Philadelphia,2,06,Rainy
+2025-06-02,Olive Oil,40,New York,2,06,Rainy
+2025-06-02,Vinegar,31,Boston,2,06,Rainy
+2025-06-02,Honey,25,Philadelphia,2,06,Rainy
+2025-06-02,Jam,15,New York,2,06,Rainy
+2025-06-02,Peanut Butter,16,Boston,2,06,Rainy
+2025-06-02,Almonds,31,Philadelphia,2,06,Rainy
+2025-06-02,Bell Peppers,58,Boston,2,06,Rainy
+2025-06-02,Cake Mixes,16,Philadelphia,2,06,Rainy
+2025-06-02,Carrots,21,New York,2,06,Rainy
+2025-06-02,Cooking Oil,14,Boston,2,06,Rainy
+2025-06-02,Spinach,5,Boston,2,06,Rainy
+2025-06-02,Lettuce,50,Philadelphia,2,06,Rainy
+2025-06-03,Bananas,27,New York,3,06,Cloudy
+2025-06-03,Apples,32,New York,3,06,Cloudy
+2025-06-03,Milk,36,New York,3,06,Cloudy
+2025-06-03,Bread,21,Boston,3,06,Cloudy
+2025-06-03,Eggs,24,Boston,3,06,Cloudy
+2025-06-03,Orange Juice,28,Boston,3,06,Cloudy
+2025-06-03,Rice,4,Philadelphia,3,06,Cloudy
+2025-06-03,Chicken,36,Philadelphia,3,06,Cloudy
+2025-06-03,Hot Chocolate,13,New York,3,06,Cloudy
+2025-06-03,Soup,15,New York,3,06,Cloudy
+2025-06-03,Soft Drinks,90,New York,3,06,Cloudy
+2025-06-03,Ice Cream,57,Boston,3,06,Cloudy
+2025-06-03,Breadsticks,41,Boston,3,06,Cloudy
+2025-06-03,Potatoes,36,Philadelphia,3,06,Cloudy
+2025-06-03,Beef,45,Philadelphia,3,06,Cloudy
+2025-06-03,Cheese,36,New York,3,06,Cloudy
+2025-06-03,Yogurt,65,Philadelphia,3,06,Cloudy
+2025-06-03,Butter,33,Boston,3,06,Cloudy
+2025-06-03,Cereal,61,New York,3,06,Cloudy
+2025-06-03,Pasta,55,Philadelphia,3,06,Cloudy
+2025-06-03,Tomatoes,46,New York,3,06,Cloudy
+2025-06-03,Onions,69,Boston,3,06,Cloudy
+2025-06-03,Flour,24,Philadelphia,3,06,Cloudy
+2025-06-03,Sugar,15,New York,3,06,Cloudy
+2025-06-03,Salt,27,Boston,3,06,Cloudy
+2025-06-03,Pepper,23,Philadelphia,3,06,Cloudy
+2025-06-03,Olive Oil,30,New York,3,06,Cloudy
+2025-06-03,Vinegar,16,Boston,3,06,Cloudy
+2025-06-03,Honey,20,Philadelphia,3,06,Cloudy
+2025-06-03,Jam,36,New York,3,06,Cloudy
+2025-06-03,Peanut Butter,34,Boston,3,06,Cloudy
+2025-06-03,Almonds,22,Philadelphia,3,06,Cloudy
+2025-06-03,Bell Peppers,25,Boston,3,06,Cloudy
+2025-06-03,Cake Mixes,31,Philadelphia,3,06,Cloudy
+2025-06-03,Carrots,11,New York,3,06,Cloudy
+2025-06-03,Cooking Oil,20,Boston,3,06,Cloudy
+2025-06-03,Spinach,31,Boston,3,06,Cloudy
+2025-06-03,Lettuce,41,Philadelphia,3,06,Cloudy
+2025-06-04,Bananas,50,New York,4,06,Sunny
+2025-06-04,Apples,32,New York,4,06,Sunny
+2025-06-04,Milk,30,New York,4,06,Sunny
+2025-06-04,Bread,61,Boston,4,06,Sunny
+2025-06-04,Eggs,13,Boston,4,06,Sunny
+2025-06-04,Orange Juice,27,Boston,4,06,Sunny
+2025-06-04,Rice,21,Philadelphia,4,06,Sunny
+2025-06-04,Chicken,39,Philadelphia,4,06,Sunny
+2025-06-04,Hot Chocolate,33,New York,4,06,Sunny
+2025-06-04,Soup,32,New York,4,06,Sunny
+2025-06-04,Soft Drinks,104,New York,4,06,Sunny
+2025-06-04,Ice Cream,84,Boston,4,06,Sunny
+2025-06-04,Breadsticks,77,Boston,4,06,Sunny
+2025-06-04,Potatoes,35,Philadelphia,4,06,Sunny
+2025-06-04,Beef,3,Philadelphia,4,06,Sunny
+2025-06-04,Cheese,52,New York,4,06,Sunny
+2025-06-04,Yogurt,16,Philadelphia,4,06,Sunny
+2025-06-04,Butter,25,Boston,4,06,Sunny
+2025-06-04,Cereal,28,New York,4,06,Sunny
+2025-06-04,Pasta,7,Philadelphia,4,06,Sunny
+2025-06-04,Tomatoes,29,New York,4,06,Sunny
+2025-06-04,Onions,21,Boston,4,06,Sunny
+2025-06-04,Flour,19,Philadelphia,4,06,Sunny
+2025-06-04,Sugar,46,New York,4,06,Sunny
+2025-06-04,Salt,12,Boston,4,06,Sunny
+2025-06-04,Pepper,25,Philadelphia,4,06,Sunny
+2025-06-04,Olive Oil,9,New York,4,06,Sunny
+2025-06-04,Vinegar,13,Boston,4,06,Sunny
+2025-06-04,Honey,30,Philadelphia,4,06,Sunny
+2025-06-04,Jam,28,New York,4,06,Sunny
+2025-06-04,Peanut Butter,43,Boston,4,06,Sunny
+2025-06-04,Almonds,18,Philadelphia,4,06,Sunny
+2025-06-04,Bell Peppers,67,Boston,4,06,Sunny
+2025-06-04,Cake Mixes,5,Philadelphia,4,06,Sunny
+2025-06-04,Carrots,21,New York,4,06,Sunny
+2025-06-04,Cooking Oil,31,Boston,4,06,Sunny
+2025-06-04,Spinach,15,Boston,4,06,Sunny
+2025-06-04,Lettuce,50,Philadelphia,4,06,Sunny
+2025-06-05,Bananas,49,New York,5,06,Sunny
+2025-06-05,Apples,74,New York,5,06,Sunny
+2025-06-05,Milk,20,New York,5,06,Sunny
+2025-06-05,Bread,23,Boston,5,06,Sunny
+2025-06-05,Eggs,32,Boston,5,06,Sunny
+2025-06-05,Orange Juice,17,Boston,5,06,Sunny
+2025-06-05,Rice,17,Philadelphia,5,06,Sunny
+2025-06-05,Chicken,32,Philadelphia,5,06,Sunny
+2025-06-05,Hot Chocolate,26,New York,5,06,Sunny
+2025-06-05,Soup,24,New York,5,06,Sunny
+2025-06-05,Soft Drinks,36,New York,5,06,Sunny
+2025-06-05,Ice Cream,36,Boston,5,06,Sunny
+2025-06-05,Breadsticks,46,Boston,5,06,Sunny
+2025-06-05,Potatoes,21,Philadelphia,5,06,Sunny
+2025-06-05,Beef,37,Philadelphia,5,06,Sunny
+2025-06-05,Cheese,19,New York,5,06,Sunny
+2025-06-05,Yogurt,95,Philadelphia,5,06,Sunny
+2025-06-05,Butter,27,Boston,5,06,Sunny
+2025-06-05,Cereal,49,New York,5,06,Sunny
+2025-06-05,Pasta,44,Philadelphia,5,06,Sunny
+2025-06-05,Tomatoes,40,New York,5,06,Sunny
+2025-06-05,Onions,52,Boston,5,06,Sunny
+2025-06-05,Flour,42,Philadelphia,5,06,Sunny
+2025-06-05,Sugar,22,New York,5,06,Sunny
+2025-06-05,Salt,30,Boston,5,06,Sunny
+2025-06-05,Pepper,25,Philadelphia,5,06,Sunny
+2025-06-05,Olive Oil,35,New York,5,06,Sunny
+2025-06-05,Vinegar,25,Boston,5,06,Sunny
+2025-06-05,Honey,35,Philadelphia,5,06,Sunny
+2025-06-05,Jam,16,New York,5,06,Sunny
+2025-06-05,Peanut Butter,32,Boston,5,06,Sunny
+2025-06-05,Almonds,36,Philadelphia,5,06,Sunny
+2025-06-05,Bell Peppers,29,Boston,5,06,Sunny
+2025-06-05,Cake Mixes,23,Philadelphia,5,06,Sunny
+2025-06-05,Carrots,14,New York,5,06,Sunny
+2025-06-05,Cooking Oil,21,Boston,5,06,Sunny
+2025-06-05,Spinach,34,Boston,5,06,Sunny
+2025-06-05,Lettuce,51,Philadelphia,5,06,Sunny
+2025-07-01,Bananas,47,New York,1,07,Sunny
+2025-07-01,Apples,74,New York,1,07,Sunny
+2025-07-01,Milk,20,New York,1,07,Sunny
+2025-07-01,Bread,46,Boston,1,07,Sunny
+2025-07-01,Eggs,20,Boston,1,07,Sunny
+2025-07-01,Orange Juice,36,Boston,1,07,Sunny
+2025-07-01,Rice,13,Philadelphia,1,07,Sunny
+2025-07-01,Chicken,38,Philadelphia,1,07,Sunny
+2025-07-01,Hot Chocolate,23,New York,1,07,Sunny
+2025-07-01,Soup,21,New York,1,07,Sunny
+2025-07-01,Soft Drinks,70,New York,1,07,Sunny
+2025-07-01,Ice Cream,95,Boston,1,07,Sunny
+2025-07-01,Breadsticks,38,Boston,1,07,Sunny
+2025-07-01,Potatoes,37,Philadelphia,1,07,Sunny
+2025-07-01,Beef,27,Philadelphia,1,07,Sunny
+2025-07-01,Cheese,50,New York,1,07,Sunny
+2025-07-01,Yogurt,69,Philadelphia,1,07,Sunny
+2025-07-01,Butter,35,Boston,1,07,Sunny
+2025-07-01,Cereal,59,New York,1,07,Sunny
+2025-07-01,Pasta,39,Philadelphia,1,07,Sunny
+2025-07-01,Tomatoes,52,New York,1,07,Sunny
+2025-07-01,Onions,40,Boston,1,07,Sunny
+2025-07-01,Flour,23,Philadelphia,1,07,Sunny
+2025-07-01,Sugar,29,New York,1,07,Sunny
+2025-07-01,Salt,31,Boston,1,07,Sunny
+2025-07-01,Pepper,28,Philadelphia,1,07,Sunny
+2025-07-01,Olive Oil,19,New York,1,07,Sunny
+2025-07-01,Vinegar,19,Boston,1,07,Sunny
+2025-07-01,Honey,36,Philadelphia,1,07,Sunny
+2025-07-01,Jam,32,New York,1,07,Sunny
+2025-07-01,Peanut Butter,25,Boston,1,07,Sunny
+2025-07-01,Almonds,31,Philadelphia,1,07,Sunny
+2025-07-01,Bell Peppers,47,Boston,1,07,Sunny
+2025-07-01,Cake Mixes,10,Philadelphia,1,07,Sunny
+2025-07-01,Carrots,15,New York,1,07,Sunny
+2025-07-01,Cooking Oil,16,Boston,1,07,Sunny
+2025-07-01,Spinach,13,Boston,1,07,Sunny
+2025-07-01,Lettuce,66,Philadelphia,1,07,Sunny
+2025-07-02,Bananas,31,New York,2,07,Sunny
+2025-07-02,Apples,53,New York,2,07,Sunny
+2025-07-02,Milk,44,New York,2,07,Sunny
+2025-07-02,Bread,40,Boston,2,07,Sunny
+2025-07-02,Eggs,36,Boston,2,07,Sunny
+2025-07-02,Orange Juice,38,Boston,2,07,Sunny
+2025-07-02,Rice,20,Philadelphia,2,07,Sunny
+2025-07-02,Chicken,56,Philadelphia,2,07,Sunny
+2025-07-02,Hot Chocolate,29,New York,2,07,Sunny
+2025-07-02,Soup,28,New York,2,07,Sunny
+2025-07-02,Soft Drinks,69,New York,2,07,Sunny
+2025-07-02,Ice Cream,38,Boston,2,07,Sunny
+2025-07-02,Breadsticks,43,Boston,2,07,Sunny
+2025-07-02,Potatoes,22,Philadelphia,2,07,Sunny
+2025-07-02,Beef,11,Philadelphia,2,07,Sunny
+2025-07-02,Cheese,26,New York,2,07,Sunny
+2025-07-02,Yogurt,75,Philadelphia,2,07,Sunny
+2025-07-02,Butter,25,Boston,2,07,Sunny
+2025-07-02,Cereal,13,New York,2,07,Sunny
+2025-07-02,Pasta,33,Philadelphia,2,07,Sunny
+2025-07-02,Tomatoes,34,New York,2,07,Sunny
+2025-07-02,Onions,63,Boston,2,07,Sunny
+2025-07-02,Flour,36,Philadelphia,2,07,Sunny
+2025-07-02,Sugar,45,New York,2,07,Sunny
+2025-07-02,Salt,31,Boston,2,07,Sunny
+2025-07-02,Pepper,19,Philadelphia,2,07,Sunny
+2025-07-02,Olive Oil,49,New York,2,07,Sunny
+2025-07-02,Vinegar,21,Boston,2,07,Sunny
+2025-07-02,Honey,13,Philadelphia,2,07,Sunny
+2025-07-02,Jam,24,New York,2,07,Sunny
+2025-07-02,Peanut Butter,31,Boston,2,07,Sunny
+2025-07-02,Almonds,32,Philadelphia,2,07,Sunny
+2025-07-02,Bell Peppers,53,Boston,2,07,Sunny
+2025-07-02,Cake Mixes,17,Philadelphia,2,07,Sunny
+2025-07-02,Carrots,16,New York,2,07,Sunny
+2025-07-02,Cooking Oil,28,Boston,2,07,Sunny
+2025-07-02,Spinach,34,Boston,2,07,Sunny
+2025-07-02,Lettuce,34,Philadelphia,2,07,Sunny
+2025-07-03,Bananas,48,New York,3,07,Cloudy
+2025-07-03,Apples,31,New York,3,07,Cloudy
+2025-07-03,Milk,26,New York,3,07,Cloudy
+2025-07-03,Bread,24,Boston,3,07,Cloudy
+2025-07-03,Eggs,20,Boston,3,07,Cloudy
+2025-07-03,Orange Juice,17,Boston,3,07,Cloudy
+2025-07-03,Rice,15,Philadelphia,3,07,Cloudy
+2025-07-03,Chicken,25,Philadelphia,3,07,Cloudy
+2025-07-03,Hot Chocolate,45,New York,3,07,Cloudy
+2025-07-03,Soup,19,New York,3,07,Cloudy
+2025-07-03,Soft Drinks,105,New York,3,07,Cloudy
+2025-07-03,Ice Cream,74,Boston,3,07,Cloudy
+2025-07-03,Breadsticks,59,Boston,3,07,Cloudy
+2025-07-03,Potatoes,31,Philadelphia,3,07,Cloudy
+2025-07-03,Beef,28,Philadelphia,3,07,Cloudy
+2025-07-03,Cheese,28,New York,3,07,Cloudy
+2025-07-03,Yogurt,57,Philadelphia,3,07,Cloudy
+2025-07-03,Butter,11,Boston,3,07,Cloudy
+2025-07-03,Cereal,56,New York,3,07,Cloudy
+2025-07-03,Pasta,20,Philadelphia,3,07,Cloudy
+2025-07-03,Tomatoes,69,New York,3,07,Cloudy
+2025-07-03,Onions,26,Boston,3,07,Cloudy
+2025-07-03,Flour,47,Philadelphia,3,07,Cloudy
+2025-07-03,Sugar,16,New York,3,07,Cloudy
+2025-07-03,Salt,16,Boston,3,07,Cloudy
+2025-07-03,Pepper,20,Philadelphia,3,07,Cloudy
+2025-07-03,Olive Oil,18,New York,3,07,Cloudy
+2025-07-03,Vinegar,17,Boston,3,07,Cloudy
+2025-07-03,Honey,29,Philadelphia,3,07,Cloudy
+2025-07-03,Jam,33,New York,3,07,Cloudy
+2025-07-03,Peanut Butter,65,Boston,3,07,Cloudy
+2025-07-03,Almonds,44,Philadelphia,3,07,Cloudy
+2025-07-03,Bell Peppers,38,Boston,3,07,Cloudy
+2025-07-03,Cake Mixes,14,Philadelphia,3,07,Cloudy
+2025-07-03,Carrots,5,New York,3,07,Cloudy
+2025-07-03,Cooking Oil,32,Boston,3,07,Cloudy
+2025-07-03,Spinach,21,Boston,3,07,Cloudy
+2025-07-03,Lettuce,30,Philadelphia,3,07,Cloudy
+2025-07-04,Bananas,35,New York,4,07,Sunny
+2025-07-04,Apples,37,New York,4,07,Sunny
+2025-07-04,Milk,25,New York,4,07,Sunny
+2025-07-04,Bread,24,Boston,4,07,Sunny
+2025-07-04,Eggs,25,Boston,4,07,Sunny
+2025-07-04,Orange Juice,27,Boston,4,07,Sunny
+2025-07-04,Rice,4,Philadelphia,4,07,Sunny
+2025-07-04,Chicken,25,Philadelphia,4,07,Sunny
+2025-07-04,Hot Chocolate,6,New York,4,07,Sunny
+2025-07-04,Soup,48,New York,4,07,Sunny
+2025-07-04,Soft Drinks,49,New York,4,07,Sunny
+2025-07-04,Ice Cream,74,Boston,4,07,Sunny
+2025-07-04,Breadsticks,50,Boston,4,07,Sunny
+2025-07-04,Potatoes,36,Philadelphia,4,07,Sunny
+2025-07-04,Beef,34,Philadelphia,4,07,Sunny
+2025-07-04,Cheese,39,New York,4,07,Sunny
+2025-07-04,Yogurt,78,Philadelphia,4,07,Sunny
+2025-07-04,Butter,50,Boston,4,07,Sunny
+2025-07-04,Cereal,28,New York,4,07,Sunny
+2025-07-04,Pasta,47,Philadelphia,4,07,Sunny
+2025-07-04,Tomatoes,18,New York,4,07,Sunny
+2025-07-04,Onions,52,Boston,4,07,Sunny
+2025-07-04,Flour,11,Philadelphia,4,07,Sunny
+2025-07-04,Sugar,48,New York,4,07,Sunny
+2025-07-04,Salt,26,Boston,4,07,Sunny
+2025-07-04,Pepper,31,Philadelphia,4,07,Sunny
+2025-07-04,Olive Oil,16,New York,4,07,Sunny
+2025-07-04,Vinegar,25,Boston,4,07,Sunny
+2025-07-04,Honey,48,Philadelphia,4,07,Sunny
+2025-07-04,Jam,5,New York,4,07,Sunny
+2025-07-04,Peanut Butter,36,Boston,4,07,Sunny
+2025-07-04,Almonds,33,Philadelphia,4,07,Sunny
+2025-07-04,Bell Peppers,48,Boston,4,07,Sunny
+2025-07-04,Cake Mixes,17,Philadelphia,4,07,Sunny
+2025-07-04,Carrots,17,New York,4,07,Sunny
+2025-07-04,Cooking Oil,15,Boston,4,07,Sunny
+2025-07-04,Spinach,16,Boston,4,07,Sunny
+2025-07-04,Lettuce,60,Philadelphia,4,07,Sunny
+2025-07-05,Bananas,49,New York,5,07,Sunny
+2025-07-05,Apples,65,New York,5,07,Sunny
+2025-07-05,Milk,45,New York,5,07,Sunny
+2025-07-05,Bread,46,Boston,5,07,Sunny
+2025-07-05,Eggs,19,Boston,5,07,Sunny
+2025-07-05,Orange Juice,32,Boston,5,07,Sunny
+2025-07-05,Rice,18,Philadelphia,5,07,Sunny
+2025-07-05,Chicken,56,Philadelphia,5,07,Sunny
+2025-07-05,Hot Chocolate,37,New York,5,07,Sunny
+2025-07-05,Soup,14,New York,5,07,Sunny
+2025-07-05,Soft Drinks,57,New York,5,07,Sunny
+2025-07-05,Ice Cream,59,Boston,5,07,Sunny
+2025-07-05,Breadsticks,70,Boston,5,07,Sunny
+2025-07-05,Potatoes,34,Philadelphia,5,07,Sunny
+2025-07-05,Beef,20,Philadelphia,5,07,Sunny
+2025-07-05,Cheese,47,New York,5,07,Sunny
+2025-07-05,Yogurt,51,Philadelphia,5,07,Sunny
+2025-07-05,Butter,19,Boston,5,07,Sunny
+2025-07-05,Cereal,54,New York,5,07,Sunny
+2025-07-05,Pasta,31,Philadelphia,5,07,Sunny
+2025-07-05,Tomatoes,57,New York,5,07,Sunny
+2025-07-05,Onions,39,Boston,5,07,Sunny
+2025-07-05,Flour,43,Philadelphia,5,07,Sunny
+2025-07-05,Sugar,32,New York,5,07,Sunny
+2025-07-05,Salt,26,Boston,5,07,Sunny
+2025-07-05,Pepper,22,Philadelphia,5,07,Sunny
+2025-07-05,Olive Oil,38,New York,5,07,Sunny
+2025-07-05,Vinegar,28,Boston,5,07,Sunny
+2025-07-05,Honey,24,Philadelphia,5,07,Sunny
+2025-07-05,Jam,36,New York,5,07,Sunny
+2025-07-05,Peanut Butter,23,Boston,5,07,Sunny
+2025-07-05,Almonds,20,Philadelphia,5,07,Sunny
+2025-07-05,Bell Peppers,44,Boston,5,07,Sunny
+2025-07-05,Cake Mixes,22,Philadelphia,5,07,Sunny
+2025-07-05,Carrots,17,New York,5,07,Sunny
+2025-07-05,Cooking Oil,19,Boston,5,07,Sunny
+2025-07-05,Spinach,26,Boston,5,07,Sunny
+2025-07-05,Lettuce,40,Philadelphia,5,07,Sunny
+2025-08-01,Bananas,58,New York,1,08,Sunny
+2025-08-01,Apples,32,New York,1,08,Sunny
+2025-08-01,Milk,30,New York,1,08,Sunny
+2025-08-01,Bread,51,Boston,1,08,Sunny
+2025-08-01,Eggs,20,Boston,1,08,Sunny
+2025-08-01,Orange Juice,17,Boston,1,08,Sunny
+2025-08-01,Rice,12,Philadelphia,1,08,Sunny
+2025-08-01,Chicken,48,Philadelphia,1,08,Sunny
+2025-08-01,Hot Chocolate,34,New York,1,08,Sunny
+2025-08-01,Soup,26,New York,1,08,Sunny
+2025-08-01,Soft Drinks,87,New York,1,08,Sunny
+2025-08-01,Ice Cream,88,Boston,1,08,Sunny
+2025-08-01,Breadsticks,35,Boston,1,08,Sunny
+2025-08-01,Potatoes,22,Philadelphia,1,08,Sunny
+2025-08-01,Beef,26,Philadelphia,1,08,Sunny
+2025-08-01,Cheese,58,New York,1,08,Sunny
+2025-08-01,Yogurt,87,Philadelphia,1,08,Sunny
+2025-08-01,Butter,28,Boston,1,08,Sunny
+2025-08-01,Cereal,49,New York,1,08,Sunny
+2025-08-01,Pasta,26,Philadelphia,1,08,Sunny
+2025-08-01,Tomatoes,31,New York,1,08,Sunny
+2025-08-01,Onions,46,Boston,1,08,Sunny
+2025-08-01,Flour,40,Philadelphia,1,08,Sunny
+2025-08-01,Sugar,33,New York,1,08,Sunny
+2025-08-01,Salt,15,Boston,1,08,Sunny
+2025-08-01,Pepper,38,Philadelphia,1,08,Sunny
+2025-08-01,Olive Oil,24,New York,1,08,Sunny
+2025-08-01,Vinegar,13,Boston,1,08,Sunny
+2025-08-01,Honey,40,Philadelphia,1,08,Sunny
+2025-08-01,Jam,25,New York,1,08,Sunny
+2025-08-01,Peanut Butter,30,Boston,1,08,Sunny
+2025-08-01,Almonds,35,Philadelphia,1,08,Sunny
+2025-08-01,Bell Peppers,51,Boston,1,08,Sunny
+2025-08-01,Cake Mixes,16,Philadelphia,1,08,Sunny
+2025-08-01,Carrots,14,New York,1,08,Sunny
+2025-08-01,Cooking Oil,28,Boston,1,08,Sunny
+2025-08-01,Spinach,27,Boston,1,08,Sunny
+2025-08-01,Lettuce,41,Philadelphia,1,08,Sunny
+2025-08-02,Bananas,30,New York,2,08,Cloudy
+2025-08-02,Apples,53,New York,2,08,Cloudy
+2025-08-02,Milk,31,New York,2,08,Cloudy
+2025-08-02,Bread,42,Boston,2,08,Cloudy
+2025-08-02,Eggs,30,Boston,2,08,Cloudy
+2025-08-02,Orange Juice,60,Boston,2,08,Cloudy
+2025-08-02,Rice,15,Philadelphia,2,08,Cloudy
+2025-08-02,Chicken,30,Philadelphia,2,08,Cloudy
+2025-08-02,Hot Chocolate,36,New York,2,08,Cloudy
+2025-08-02,Soup,29,New York,2,08,Cloudy
+2025-08-02,Soft Drinks,44,New York,2,08,Cloudy
+2025-08-02,Ice Cream,38,Boston,2,08,Cloudy
+2025-08-02,Breadsticks,60,Boston,2,08,Cloudy
+2025-08-02,Potatoes,51,Philadelphia,2,08,Cloudy
+2025-08-02,Beef,19,Philadelphia,2,08,Cloudy
+2025-08-02,Cheese,23,New York,2,08,Cloudy
+2025-08-02,Yogurt,63,Philadelphia,2,08,Cloudy
+2025-08-02,Butter,28,Boston,2,08,Cloudy
+2025-08-02,Cereal,33,New York,2,08,Cloudy
+2025-08-02,Pasta,50,Philadelphia,2,08,Cloudy
+2025-08-02,Tomatoes,64,New York,2,08,Cloudy
+2025-08-02,Onions,46,Boston,2,08,Cloudy
+2025-08-02,Flour,24,Philadelphia,2,08,Cloudy
+2025-08-02,Sugar,25,New York,2,08,Cloudy
+2025-08-02,Salt,36,Boston,2,08,Cloudy
+2025-08-02,Pepper,4,Philadelphia,2,08,Cloudy
+2025-08-02,Olive Oil,50,New York,2,08,Cloudy
+2025-08-02,Vinegar,38,Boston,2,08,Cloudy
+2025-08-02,Honey,21,Philadelphia,2,08,Cloudy
+2025-08-02,Jam,30,New York,2,08,Cloudy
+2025-08-02,Peanut Butter,45,Boston,2,08,Cloudy
+2025-08-02,Almonds,37,Philadelphia,2,08,Cloudy
+2025-08-02,Bell Peppers,42,Boston,2,08,Cloudy
+2025-08-02,Cake Mixes,11,Philadelphia,2,08,Cloudy
+2025-08-02,Carrots,13,New York,2,08,Cloudy
+2025-08-02,Cooking Oil,6,Boston,2,08,Cloudy
+2025-08-02,Spinach,6,Boston,2,08,Cloudy
+2025-08-02,Lettuce,60,Philadelphia,2,08,Cloudy
+2025-08-03,Bananas,43,New York,3,08,Sunny
+2025-08-03,Apples,77,New York,3,08,Sunny
+2025-08-03,Milk,53,New York,3,08,Sunny
+2025-08-03,Bread,18,Boston,3,08,Sunny
+2025-08-03,Eggs,25,Boston,3,08,Sunny
+2025-08-03,Orange Juice,25,Boston,3,08,Sunny
+2025-08-03,Rice,9,Philadelphia,3,08,Sunny
+2025-08-03,Chicken,30,Philadelphia,3,08,Sunny
+2025-08-03,Hot Chocolate,26,New York,3,08,Sunny
+2025-08-03,Soup,38,New York,3,08,Sunny
+2025-08-03,Soft Drinks,109,New York,3,08,Sunny
+2025-08-03,Ice Cream,61,Boston,3,08,Sunny
+2025-08-03,Breadsticks,86,Boston,3,08,Sunny
+2025-08-03,Potatoes,6,Philadelphia,3,08,Sunny
+2025-08-03,Beef,19,Philadelphia,3,08,Sunny
+2025-08-03,Cheese,37,New York,3,08,Sunny
+2025-08-03,Yogurt,87,Philadelphia,3,08,Sunny
+2025-08-03,Butter,38,Boston,3,08,Sunny
+2025-08-03,Cereal,63,New York,3,08,Sunny
+2025-08-03,Pasta,47,Philadelphia,3,08,Sunny
+2025-08-03,Tomatoes,38,New York,3,08,Sunny
+2025-08-03,Onions,55,Boston,3,08,Sunny
+2025-08-03,Flour,23,Philadelphia,3,08,Sunny
+2025-08-03,Sugar,59,New York,3,08,Sunny
+2025-08-03,Salt,21,Boston,3,08,Sunny
+2025-08-03,Pepper,42,Philadelphia,3,08,Sunny
+2025-08-03,Olive Oil,29,New York,3,08,Sunny
+2025-08-03,Vinegar,28,Boston,3,08,Sunny
+2025-08-03,Honey,43,Philadelphia,3,08,Sunny
+2025-08-03,Jam,28,New York,3,08,Sunny
+2025-08-03,Peanut Butter,55,Boston,3,08,Sunny
+2025-08-03,Almonds,19,Philadelphia,3,08,Sunny
+2025-08-03,Bell Peppers,31,Boston,3,08,Sunny
+2025-08-03,Cake Mixes,15,Philadelphia,3,08,Sunny
+2025-08-03,Carrots,8,New York,3,08,Sunny
+2025-08-03,Cooking Oil,22,Boston,3,08,Sunny
+2025-08-03,Spinach,22,Boston,3,08,Sunny
+2025-08-03,Lettuce,46,Philadelphia,3,08,Sunny
+2025-08-04,Bananas,66,New York,4,08,Sunny
+2025-08-04,Apples,48,New York,4,08,Sunny
+2025-08-04,Milk,38,New York,4,08,Sunny
+2025-08-04,Bread,35,Boston,4,08,Sunny
+2025-08-04,Eggs,16,Boston,4,08,Sunny
+2025-08-04,Orange Juice,15,Boston,4,08,Sunny
+2025-08-04,Rice,9,Philadelphia,4,08,Sunny
+2025-08-04,Chicken,77,Philadelphia,4,08,Sunny
+2025-08-04,Hot Chocolate,11,New York,4,08,Sunny
+2025-08-04,Soup,7,New York,4,08,Sunny
+2025-08-04,Soft Drinks,38,New York,4,08,Sunny
+2025-08-04,Ice Cream,113,Boston,4,08,Sunny
+2025-08-04,Breadsticks,28,Boston,4,08,Sunny
+2025-08-04,Potatoes,39,Philadelphia,4,08,Sunny
+2025-08-04,Beef,28,Philadelphia,4,08,Sunny
+2025-08-04,Cheese,50,New York,4,08,Sunny
+2025-08-04,Yogurt,65,Philadelphia,4,08,Sunny
+2025-08-04,Butter,28,Boston,4,08,Sunny
+2025-08-04,Cereal,15,New York,4,08,Sunny
+2025-08-04,Pasta,34,Philadelphia,4,08,Sunny
+2025-08-04,Tomatoes,37,New York,4,08,Sunny
+2025-08-04,Onions,57,Boston,4,08,Sunny
+2025-08-04,Flour,43,Philadelphia,4,08,Sunny
+2025-08-04,Sugar,16,New York,4,08,Sunny
+2025-08-04,Salt,31,Boston,4,08,Sunny
+2025-08-04,Pepper,29,Philadelphia,4,08,Sunny
+2025-08-04,Olive Oil,27,New York,4,08,Sunny
+2025-08-04,Vinegar,20,Boston,4,08,Sunny
+2025-08-04,Honey,38,Philadelphia,4,08,Sunny
+2025-08-04,Jam,33,New York,4,08,Sunny
+2025-08-04,Peanut Butter,14,Boston,4,08,Sunny
+2025-08-04,Almonds,48,Philadelphia,4,08,Sunny
+2025-08-04,Bell Peppers,61,Boston,4,08,Sunny
+2025-08-04,Cake Mixes,9,Philadelphia,4,08,Sunny
+2025-08-04,Carrots,12,New York,4,08,Sunny
+2025-08-04,Cooking Oil,23,Boston,4,08,Sunny
+2025-08-04,Spinach,29,Boston,4,08,Sunny
+2025-08-04,Lettuce,33,Philadelphia,4,08,Sunny
+2025-08-05,Bananas,23,New York,5,08,Sunny
+2025-08-05,Apples,60,New York,5,08,Sunny
+2025-08-05,Milk,18,New York,5,08,Sunny
+2025-08-05,Bread,44,Boston,5,08,Sunny
+2025-08-05,Eggs,19,Boston,5,08,Sunny
+2025-08-05,Orange Juice,43,Boston,5,08,Sunny
+2025-08-05,Rice,15,Philadelphia,5,08,Sunny
+2025-08-05,Chicken,25,Philadelphia,5,08,Sunny
+2025-08-05,Hot Chocolate,43,New York,5,08,Sunny
+2025-08-05,Soup,40,New York,5,08,Sunny
+2025-08-05,Soft Drinks,82,New York,5,08,Sunny
+2025-08-05,Ice Cream,50,Boston,5,08,Sunny
+2025-08-05,Breadsticks,61,Boston,5,08,Sunny
+2025-08-05,Potatoes,32,Philadelphia,5,08,Sunny
+2025-08-05,Beef,18,Philadelphia,5,08,Sunny
+2025-08-05,Cheese,32,New York,5,08,Sunny
+2025-08-05,Yogurt,38,Philadelphia,5,08,Sunny
+2025-08-05,Butter,28,Boston,5,08,Sunny
+2025-08-05,Cereal,60,New York,5,08,Sunny
+2025-08-05,Pasta,23,Philadelphia,5,08,Sunny
+2025-08-05,Tomatoes,70,New York,5,08,Sunny
+2025-08-05,Onions,26,Boston,5,08,Sunny
+2025-08-05,Flour,40,Philadelphia,5,08,Sunny
+2025-08-05,Sugar,47,New York,5,08,Sunny
+2025-08-05,Salt,37,Boston,5,08,Sunny
+2025-08-05,Pepper,17,Philadelphia,5,08,Sunny
+2025-08-05,Olive Oil,20,New York,5,08,Sunny
+2025-08-05,Vinegar,21,Boston,5,08,Sunny
+2025-08-05,Honey,18,Philadelphia,5,08,Sunny
+2025-08-05,Jam,24,New York,5,08,Sunny
+2025-08-05,Peanut Butter,46,Boston,5,08,Sunny
+2025-08-05,Almonds,31,Philadelphia,5,08,Sunny
+2025-08-05,Bell Peppers,55,Boston,5,08,Sunny
+2025-08-05,Cake Mixes,19,Philadelphia,5,08,Sunny
+2025-08-05,Carrots,13,New York,5,08,Sunny
+2025-08-05,Cooking Oil,21,Boston,5,08,Sunny
+2025-08-05,Spinach,16,Boston,5,08,Sunny
+2025-08-05,Lettuce,60,Philadelphia,5,08,Sunny
+2025-09-01,Bananas,55,New York,1,09,Cloudy
+2025-09-01,Apples,34,New York,1,09,Cloudy
+2025-09-01,Milk,39,New York,1,09,Cloudy
+2025-09-01,Bread,46,Boston,1,09,Cloudy
+2025-09-01,Eggs,19,Boston,1,09,Cloudy
+2025-09-01,Orange Juice,38,Boston,1,09,Cloudy
+2025-09-01,Rice,14,Philadelphia,1,09,Cloudy
+2025-09-01,Chicken,40,Philadelphia,1,09,Cloudy
+2025-09-01,Hot Chocolate,28,New York,1,09,Cloudy
+2025-09-01,Soup,21,New York,1,09,Cloudy
+2025-09-01,Soft Drinks,54,New York,1,09,Cloudy
+2025-09-01,Ice Cream,97,Boston,1,09,Cloudy
+2025-09-01,Breadsticks,52,Boston,1,09,Cloudy
+2025-09-01,Potatoes,34,Philadelphia,1,09,Cloudy
+2025-09-01,Beef,20,Philadelphia,1,09,Cloudy
+2025-09-01,Cheese,44,New York,1,09,Cloudy
+2025-09-01,Yogurt,46,Philadelphia,1,09,Cloudy
+2025-09-01,Butter,21,Boston,1,09,Cloudy
+2025-09-01,Cereal,54,New York,1,09,Cloudy
+2025-09-01,Pasta,47,Philadelphia,1,09,Cloudy
+2025-09-01,Tomatoes,58,New York,1,09,Cloudy
+2025-09-01,Onions,36,Boston,1,09,Cloudy
+2025-09-01,Flour,33,Philadelphia,1,09,Cloudy
+2025-09-01,Sugar,55,New York,1,09,Cloudy
+2025-09-01,Salt,22,Boston,1,09,Cloudy
+2025-09-01,Pepper,33,Philadelphia,1,09,Cloudy
+2025-09-01,Olive Oil,47,New York,1,09,Cloudy
+2025-09-01,Vinegar,27,Boston,1,09,Cloudy
+2025-09-01,Honey,47,Philadelphia,1,09,Cloudy
+2025-09-01,Jam,30,New York,1,09,Cloudy
+2025-09-01,Peanut Butter,52,Boston,1,09,Cloudy
+2025-09-01,Almonds,42,Philadelphia,1,09,Cloudy
+2025-09-01,Bell Peppers,31,Boston,1,09,Cloudy
+2025-09-01,Cake Mixes,9,Philadelphia,1,09,Cloudy
+2025-09-01,Carrots,9,New York,1,09,Cloudy
+2025-09-01,Cooking Oil,21,Boston,1,09,Cloudy
+2025-09-01,Spinach,21,Boston,1,09,Cloudy
+2025-09-01,Lettuce,45,Philadelphia,1,09,Cloudy
+2025-09-02,Bananas,51,New York,2,09,Sunny
+2025-09-02,Apples,60,New York,2,09,Sunny
+2025-09-02,Milk,34,New York,2,09,Sunny
+2025-09-02,Bread,39,Boston,2,09,Sunny
+2025-09-02,Eggs,27,Boston,2,09,Sunny
+2025-09-02,Orange Juice,37,Boston,2,09,Sunny
+2025-09-02,Rice,4,Philadelphia,2,09,Sunny
+2025-09-02,Chicken,51,Philadelphia,2,09,Sunny
+2025-09-02,Hot Chocolate,38,New York,2,09,Sunny
+2025-09-02,Soup,26,New York,2,09,Sunny
+2025-09-02,Soft Drinks,103,New York,2,09,Sunny
+2025-09-02,Ice Cream,65,Boston,2,09,Sunny
+2025-09-02,Breadsticks,77,Boston,2,09,Sunny
+2025-09-02,Potatoes,27,Philadelphia,2,09,Sunny
+2025-09-02,Beef,27,Philadelphia,2,09,Sunny
+2025-09-02,Cheese,43,New York,2,09,Sunny
+2025-09-02,Yogurt,64,Philadelphia,2,09,Sunny
+2025-09-02,Butter,37,Boston,2,09,Sunny
+2025-09-02,Cereal,33,New York,2,09,Sunny
+2025-09-02,Pasta,14,Philadelphia,2,09,Sunny
+2025-09-02,Tomatoes,20,New York,2,09,Sunny
+2025-09-02,Onions,48,Boston,2,09,Sunny
+2025-09-02,Flour,22,Philadelphia,2,09,Sunny
+2025-09-02,Sugar,7,New York,2,09,Sunny
+2025-09-02,Salt,41,Boston,2,09,Sunny
+2025-09-02,Pepper,14,Philadelphia,2,09,Sunny
+2025-09-02,Olive Oil,29,New York,2,09,Sunny
+2025-09-02,Vinegar,35,Boston,2,09,Sunny
+2025-09-02,Honey,34,Philadelphia,2,09,Sunny
+2025-09-02,Jam,24,New York,2,09,Sunny
+2025-09-02,Peanut Butter,30,Boston,2,09,Sunny
+2025-09-02,Almonds,19,Philadelphia,2,09,Sunny
+2025-09-02,Bell Peppers,67,Boston,2,09,Sunny
+2025-09-02,Cake Mixes,20,Philadelphia,2,09,Sunny
+2025-09-02,Carrots,14,New York,2,09,Sunny
+2025-09-02,Cooking Oil,18,Boston,2,09,Sunny
+2025-09-02,Spinach,20,Boston,2,09,Sunny
+2025-09-02,Lettuce,43,Philadelphia,2,09,Sunny
+2025-09-03,Bananas,31,New York,3,09,Sunny
+2025-09-03,Apples,97,New York,3,09,Sunny
+2025-09-03,Milk,25,New York,3,09,Sunny
+2025-09-03,Bread,36,Boston,3,09,Sunny
+2025-09-03,Eggs,5,Boston,3,09,Sunny
+2025-09-03,Orange Juice,32,Boston,3,09,Sunny
+2025-09-03,Rice,14,Philadelphia,3,09,Sunny
+2025-09-03,Chicken,61,Philadelphia,3,09,Sunny
+2025-09-03,Hot Chocolate,25,New York,3,09,Sunny
+2025-09-03,Soup,37,New York,3,09,Sunny
+2025-09-03,Soft Drinks,75,New York,3,09,Sunny
+2025-09-03,Ice Cream,33,Boston,3,09,Sunny
+2025-09-03,Breadsticks,12,Boston,3,09,Sunny
+2025-09-03,Potatoes,21,Philadelphia,3,09,Sunny
+2025-09-03,Beef,4,Philadelphia,3,09,Sunny
+2025-09-03,Cheese,42,New York,3,09,Sunny
+2025-09-03,Yogurt,98,Philadelphia,3,09,Sunny
+2025-09-03,Butter,31,Boston,3,09,Sunny
+2025-09-03,Cereal,64,New York,3,09,Sunny
+2025-09-03,Pasta,37,Philadelphia,3,09,Sunny
+2025-09-03,Tomatoes,49,New York,3,09,Sunny
+2025-09-03,Onions,80,Boston,3,09,Sunny
+2025-09-03,Flour,36,Philadelphia,3,09,Sunny
+2025-09-03,Sugar,56,New York,3,09,Sunny
+2025-09-03,Salt,21,Boston,3,09,Sunny
+2025-09-03,Pepper,34,Philadelphia,3,09,Sunny
+2025-09-03,Olive Oil,22,New York,3,09,Sunny
+2025-09-03,Vinegar,21,Boston,3,09,Sunny
+2025-09-03,Honey,35,Philadelphia,3,09,Sunny
+2025-09-03,Jam,24,New York,3,09,Sunny
+2025-09-03,Peanut Butter,49,Boston,3,09,Sunny
+2025-09-03,Almonds,34,Philadelphia,3,09,Sunny
+2025-09-03,Bell Peppers,56,Boston,3,09,Sunny
+2025-09-03,Cake Mixes,3,Philadelphia,3,09,Sunny
+2025-09-03,Carrots,11,New York,3,09,Sunny
+2025-09-03,Cooking Oil,13,Boston,3,09,Sunny
+2025-09-03,Spinach,14,Boston,3,09,Sunny
+2025-09-03,Lettuce,68,Philadelphia,3,09,Sunny
+2025-09-04,Bananas,56,New York,4,09,Cloudy
+2025-09-04,Apples,31,New York,4,09,Cloudy
+2025-09-04,Milk,44,New York,4,09,Cloudy
+2025-09-04,Bread,21,Boston,4,09,Cloudy
+2025-09-04,Eggs,31,Boston,4,09,Cloudy
+2025-09-04,Orange Juice,26,Boston,4,09,Cloudy
+2025-09-04,Rice,9,Philadelphia,4,09,Cloudy
+2025-09-04,Chicken,20,Philadelphia,4,09,Cloudy
+2025-09-04,Hot Chocolate,26,New York,4,09,Cloudy
+2025-09-04,Soup,41,New York,4,09,Cloudy
+2025-09-04,Soft Drinks,38,New York,4,09,Cloudy
+2025-09-04,Ice Cream,88,Boston,4,09,Cloudy
+2025-09-04,Breadsticks,67,Boston,4,09,Cloudy
+2025-09-04,Potatoes,20,Philadelphia,4,09,Cloudy
+2025-09-04,Beef,21,Philadelphia,4,09,Cloudy
+2025-09-04,Cheese,40,New York,4,09,Cloudy
+2025-09-04,Yogurt,93,Philadelphia,4,09,Cloudy
+2025-09-04,Butter,43,Boston,4,09,Cloudy
+2025-09-04,Cereal,54,New York,4,09,Cloudy
+2025-09-04,Pasta,52,Philadelphia,4,09,Cloudy
+2025-09-04,Tomatoes,50,New York,4,09,Cloudy
+2025-09-04,Onions,42,Boston,4,09,Cloudy
+2025-09-04,Flour,39,Philadelphia,4,09,Cloudy
+2025-09-04,Sugar,23,New York,4,09,Cloudy
+2025-09-04,Salt,37,Boston,4,09,Cloudy
+2025-09-04,Pepper,23,Philadelphia,4,09,Cloudy
+2025-09-04,Olive Oil,31,New York,4,09,Cloudy
+2025-09-04,Vinegar,25,Boston,4,09,Cloudy
+2025-09-04,Honey,22,Philadelphia,4,09,Cloudy
+2025-09-04,Jam,53,New York,4,09,Cloudy
+2025-09-04,Peanut Butter,22,Boston,4,09,Cloudy
+2025-09-04,Almonds,48,Philadelphia,4,09,Cloudy
+2025-09-04,Bell Peppers,56,Boston,4,09,Cloudy
+2025-09-04,Cake Mixes,21,Philadelphia,4,09,Cloudy
+2025-09-04,Carrots,6,New York,4,09,Cloudy
+2025-09-04,Cooking Oil,19,Boston,4,09,Cloudy
+2025-09-04,Spinach,23,Boston,4,09,Cloudy
+2025-09-04,Lettuce,20,Philadelphia,4,09,Cloudy
+2025-09-05,Bananas,37,New York,5,09,Sunny
+2025-09-05,Apples,58,New York,5,09,Sunny
+2025-09-05,Milk,38,New York,5,09,Sunny
+2025-09-05,Bread,58,Boston,5,09,Sunny
+2025-09-05,Eggs,18,Boston,5,09,Sunny
+2025-09-05,Orange Juice,37,Boston,5,09,Sunny
+2025-09-05,Rice,9,Philadelphia,5,09,Sunny
+2025-09-05,Chicken,48,Philadelphia,5,09,Sunny
+2025-09-05,Hot Chocolate,43,New York,5,09,Sunny
+2025-09-05,Soup,25,New York,5,09,Sunny
+2025-09-05,Soft Drinks,100,New York,5,09,Sunny
+2025-09-05,Ice Cream,77,Boston,5,09,Sunny
+2025-09-05,Breadsticks,72,Boston,5,09,Sunny
+2025-09-05,Potatoes,38,Philadelphia,5,09,Sunny
+2025-09-05,Beef,28,Philadelphia,5,09,Sunny
+2025-09-05,Cheese,41,New York,5,09,Sunny
+2025-09-05,Yogurt,49,Philadelphia,5,09,Sunny
+2025-09-05,Butter,28,Boston,5,09,Sunny
+2025-09-05,Cereal,25,New York,5,09,Sunny
+2025-09-05,Pasta,40,Philadelphia,5,09,Sunny
+2025-09-05,Tomatoes,73,New York,5,09,Sunny
+2025-09-05,Onions,34,Boston,5,09,Sunny
+2025-09-05,Flour,50,Philadelphia,5,09,Sunny
+2025-09-05,Sugar,49,New York,5,09,Sunny
+2025-09-05,Salt,29,Boston,5,09,Sunny
+2025-09-05,Pepper,36,Philadelphia,5,09,Sunny
+2025-09-05,Olive Oil,31,New York,5,09,Sunny
+2025-09-05,Vinegar,22,Boston,5,09,Sunny
+2025-09-05,Honey,32,Philadelphia,5,09,Sunny
+2025-09-05,Jam,19,New York,5,09,Sunny
+2025-09-05,Peanut Butter,47,Boston,5,09,Sunny
+2025-09-05,Almonds,37,Philadelphia,5,09,Sunny
+2025-09-05,Bell Peppers,40,Boston,5,09,Sunny
+2025-09-05,Cake Mixes,7,Philadelphia,5,09,Sunny
+2025-09-05,Carrots,10,New York,5,09,Sunny
+2025-09-05,Cooking Oil,19,Boston,5,09,Sunny
+2025-09-05,Spinach,12,Boston,5,09,Sunny
+2025-09-05,Lettuce,74,Philadelphia,5,09,Sunny
+2025-10-01,Bananas,50,New York,1,10,Cloudy
+2025-10-01,Apples,72,New York,1,10,Cloudy
+2025-10-01,Milk,55,New York,1,10,Cloudy
+2025-10-01,Bread,38,Boston,1,10,Cloudy
+2025-10-01,Eggs,18,Boston,1,10,Cloudy
+2025-10-01,Orange Juice,52,Boston,1,10,Cloudy
+2025-10-01,Rice,10,Philadelphia,1,10,Cloudy
+2025-10-01,Chicken,40,Philadelphia,1,10,Cloudy
+2025-10-01,Hot Chocolate,32,New York,1,10,Cloudy
+2025-10-01,Soup,44,New York,1,10,Cloudy
+2025-10-01,Soft Drinks,58,New York,1,10,Cloudy
+2025-10-01,Ice Cream,77,Boston,1,10,Cloudy
+2025-10-01,Breadsticks,85,Boston,1,10,Cloudy
+2025-10-01,Potatoes,36,Philadelphia,1,10,Cloudy
+2025-10-01,Beef,24,Philadelphia,1,10,Cloudy
+2025-10-01,Cheese,44,New York,1,10,Cloudy
+2025-10-01,Yogurt,74,Philadelphia,1,10,Cloudy
+2025-10-01,Butter,47,Boston,1,10,Cloudy
+2025-10-01,Cereal,35,New York,1,10,Cloudy
+2025-10-01,Pasta,58,Philadelphia,1,10,Cloudy
+2025-10-01,Tomatoes,57,New York,1,10,Cloudy
+2025-10-01,Onions,49,Boston,1,10,Cloudy
+2025-10-01,Flour,55,Philadelphia,1,10,Cloudy
+2025-10-01,Sugar,42,New York,1,10,Cloudy
+2025-10-01,Salt,17,Boston,1,10,Cloudy
+2025-10-01,Pepper,36,Philadelphia,1,10,Cloudy
+2025-10-01,Olive Oil,41,New York,1,10,Cloudy
+2025-10-01,Vinegar,41,Boston,1,10,Cloudy
+2025-10-01,Honey,37,Philadelphia,1,10,Cloudy
+2025-10-01,Jam,27,New York,1,10,Cloudy
+2025-10-01,Peanut Butter,23,Boston,1,10,Cloudy
+2025-10-01,Almonds,51,Philadelphia,1,10,Cloudy
+2025-10-01,Lettuce,42,New York,1,10,Cloudy
+2025-10-01,Bell Peppers,36,Boston,1,10,Cloudy
+2025-10-01,Spinach,27,Philadelphia,1,10,Cloudy
+2025-10-01,Carrots,19,New York,1,10,Cloudy
+2025-10-01,Cooking Oil,52,Boston,1,10,Cloudy
+2025-10-01,Cake Mixes,21,Philadelphia,1,10,Cloudy
+2025-10-02,Bananas,49,New York,2,10,Sunny
+2025-10-02,Apples,16,New York,2,10,Sunny
+2025-10-02,Milk,19,New York,2,10,Sunny
+2025-10-02,Bread,46,Boston,2,10,Sunny
+2025-10-02,Eggs,25,Boston,2,10,Sunny
+2025-10-02,Orange Juice,32,Boston,2,10,Sunny
+2025-10-02,Rice,7,Philadelphia,2,10,Sunny
+2025-10-02,Chicken,65,Philadelphia,2,10,Sunny
+2025-10-02,Hot Chocolate,43,New York,2,10,Sunny
+2025-10-02,Soup,34,New York,2,10,Sunny
+2025-10-02,Soft Drinks,74,New York,2,10,Sunny
+2025-10-02,Ice Cream,89,Boston,2,10,Sunny
+2025-10-02,Breadsticks,58,Boston,2,10,Sunny
+2025-10-02,Potatoes,18,Philadelphia,2,10,Sunny
+2025-10-02,Beef,6,Philadelphia,2,10,Sunny
+2025-10-02,Cheese,60,New York,2,10,Sunny
+2025-10-02,Yogurt,36,Philadelphia,2,10,Sunny
+2025-10-02,Butter,9,Boston,2,10,Sunny
+2025-10-02,Cereal,70,New York,2,10,Sunny
+2025-10-02,Pasta,20,Philadelphia,2,10,Sunny
+2025-10-02,Tomatoes,62,New York,2,10,Sunny
+2025-10-02,Onions,49,Boston,2,10,Sunny
+2025-10-02,Flour,21,Philadelphia,2,10,Sunny
+2025-10-02,Sugar,27,New York,2,10,Sunny
+2025-10-02,Salt,32,Boston,2,10,Sunny
+2025-10-02,Pepper,10,Philadelphia,2,10,Sunny
+2025-10-02,Olive Oil,24,New York,2,10,Sunny
+2025-10-02,Vinegar,3,Boston,2,10,Sunny
+2025-10-02,Honey,37,Philadelphia,2,10,Sunny
+2025-10-02,Jam,33,New York,2,10,Sunny
+2025-10-02,Peanut Butter,42,Boston,2,10,Sunny
+2025-10-02,Almonds,22,Philadelphia,2,10,Sunny
+2025-10-02,Lettuce,27,New York,2,10,Sunny
+2025-10-02,Bell Peppers,57,Boston,2,10,Sunny
+2025-10-02,Spinach,38,Philadelphia,2,10,Sunny
+2025-10-02,Carrots,21,New York,2,10,Sunny
+2025-10-02,Cooking Oil,32,Boston,2,10,Sunny
+2025-10-02,Cake Mixes,34,Philadelphia,2,10,Sunny
+2025-10-03,Bananas,32,New York,3,10,Cloudy
+2025-10-03,Apples,60,New York,3,10,Cloudy
+2025-10-03,Milk,36,New York,3,10,Cloudy
+2025-10-03,Bread,43,Boston,3,10,Cloudy
+2025-10-03,Eggs,13,Boston,3,10,Cloudy
+2025-10-03,Orange Juice,38,Boston,3,10,Cloudy
+2025-10-03,Rice,7,Philadelphia,3,10,Cloudy
+2025-10-03,Chicken,53,Philadelphia,3,10,Cloudy
+2025-10-03,Hot Chocolate,41,New York,3,10,Cloudy
+2025-10-03,Soup,19,New York,3,10,Cloudy
+2025-10-03,Soft Drinks,65,New York,3,10,Cloudy
+2025-10-03,Ice Cream,90,Boston,3,10,Cloudy
+2025-10-03,Breadsticks,58,Boston,3,10,Cloudy
+2025-10-03,Potatoes,14,Philadelphia,3,10,Cloudy
+2025-10-03,Beef,31,Philadelphia,3,10,Cloudy
+2025-10-03,Cheese,49,New York,3,10,Cloudy
+2025-10-03,Yogurt,123,Philadelphia,3,10,Cloudy
+2025-10-03,Butter,31,Boston,3,10,Cloudy
+2025-10-03,Cereal,28,New York,3,10,Cloudy
+2025-10-03,Pasta,37,Philadelphia,3,10,Cloudy
+2025-10-03,Tomatoes,41,New York,3,10,Cloudy
+2025-10-03,Onions,55,Boston,3,10,Cloudy
+2025-10-03,Flour,22,Philadelphia,3,10,Cloudy
+2025-10-03,Sugar,51,New York,3,10,Cloudy
+2025-10-03,Salt,61,Boston,3,10,Cloudy
+2025-10-03,Pepper,37,Philadelphia,3,10,Cloudy
+2025-10-03,Olive Oil,22,New York,3,10,Cloudy
+2025-10-03,Vinegar,37,Boston,3,10,Cloudy
+2025-10-03,Honey,41,Philadelphia,3,10,Cloudy
+2025-10-03,Jam,37,New York,3,10,Cloudy
+2025-10-03,Peanut Butter,53,Boston,3,10,Cloudy
+2025-10-03,Almonds,39,Philadelphia,3,10,Cloudy
+2025-10-03,Lettuce,7,New York,3,10,Cloudy
+2025-10-03,Bell Peppers,30,Boston,3,10,Cloudy
+2025-10-03,Spinach,54,Philadelphia,3,10,Cloudy
+2025-10-03,Carrots,34,New York,3,10,Cloudy
+2025-10-03,Cooking Oil,36,Boston,3,10,Cloudy
+2025-10-03,Cake Mixes,28,Philadelphia,3,10,Cloudy
+2025-10-04,Bananas,45,New York,4,10,Rainy
+2025-10-04,Apples,71,New York,4,10,Rainy
+2025-10-04,Milk,50,New York,4,10,Rainy
+2025-10-04,Bread,49,Boston,4,10,Rainy
+2025-10-04,Eggs,8,Boston,4,10,Rainy
+2025-10-04,Orange Juice,25,Boston,4,10,Rainy
+2025-10-04,Rice,9,Philadelphia,4,10,Rainy
+2025-10-04,Chicken,20,Philadelphia,4,10,Rainy
+2025-10-04,Hot Chocolate,10,New York,4,10,Rainy
+2025-10-04,Soup,21,New York,4,10,Rainy
+2025-10-04,Soft Drinks,78,New York,4,10,Rainy
+2025-10-04,Ice Cream,6,Boston,4,10,Rainy
+2025-10-04,Breadsticks,17,Boston,4,10,Rainy
+2025-10-04,Potatoes,44,Philadelphia,4,10,Rainy
+2025-10-04,Beef,4,Philadelphia,4,10,Rainy
+2025-10-04,Cheese,36,New York,4,10,Rainy
+2025-10-04,Yogurt,78,Philadelphia,4,10,Rainy
+2025-10-04,Butter,60,Boston,4,10,Rainy
+2025-10-04,Cereal,50,New York,4,10,Rainy
+2025-10-04,Pasta,37,Philadelphia,4,10,Rainy
+2025-10-04,Tomatoes,71,New York,4,10,Rainy
+2025-10-04,Onions,49,Boston,4,10,Rainy
+2025-10-04,Flour,36,Philadelphia,4,10,Rainy
+2025-10-04,Sugar,21,New York,4,10,Rainy
+2025-10-04,Salt,21,Boston,4,10,Rainy
+2025-10-04,Pepper,31,Philadelphia,4,10,Rainy
+2025-10-04,Olive Oil,45,New York,4,10,Rainy
+2025-10-04,Vinegar,42,Boston,4,10,Rainy
+2025-10-04,Honey,45,Philadelphia,4,10,Rainy
+2025-10-04,Jam,16,New York,4,10,Rainy
+2025-10-04,Peanut Butter,64,Boston,4,10,Rainy
+2025-10-04,Almonds,40,Philadelphia,4,10,Rainy
+2025-10-04,Lettuce,51,New York,4,10,Rainy
+2025-10-04,Bell Peppers,43,Boston,4,10,Rainy
+2025-10-04,Spinach,37,Philadelphia,4,10,Rainy
+2025-10-04,Carrots,14,New York,4,10,Rainy
+2025-10-04,Cooking Oil,30,Boston,4,10,Rainy
+2025-10-04,Cake Mixes,23,Philadelphia,4,10,Rainy
+2025-10-05,Bananas,64,New York,5,10,Cloudy
+2025-10-05,Apples,71,New York,5,10,Cloudy
+2025-10-05,Milk,30,New York,5,10,Cloudy
+2025-10-05,Bread,34,Boston,5,10,Cloudy
+2025-10-05,Eggs,26,Boston,5,10,Cloudy
+2025-10-05,Orange Juice,33,Boston,5,10,Cloudy
+2025-10-05,Rice,7,Philadelphia,5,10,Cloudy
+2025-10-05,Chicken,52,Philadelphia,5,10,Cloudy
+2025-10-05,Hot Chocolate,44,New York,5,10,Cloudy
+2025-10-05,Soup,42,New York,5,10,Cloudy
+2025-10-05,Soft Drinks,105,New York,5,10,Cloudy
+2025-10-05,Ice Cream,108,Boston,5,10,Cloudy
+2025-10-05,Breadsticks,72,Boston,5,10,Cloudy
+2025-10-05,Potatoes,18,Philadelphia,5,10,Cloudy
+2025-10-05,Beef,25,Philadelphia,5,10,Cloudy
+2025-10-05,Cheese,31,New York,5,10,Cloudy
+2025-10-05,Yogurt,49,Philadelphia,5,10,Cloudy
+2025-10-05,Butter,23,Boston,5,10,Cloudy
+2025-10-05,Cereal,57,New York,5,10,Cloudy
+2025-10-05,Pasta,48,Philadelphia,5,10,Cloudy
+2025-10-05,Tomatoes,29,New York,5,10,Cloudy
+2025-10-05,Onions,48,Boston,5,10,Cloudy
+2025-10-05,Flour,56,Philadelphia,5,10,Cloudy
+2025-10-05,Sugar,59,New York,5,10,Cloudy
+2025-10-05,Salt,29,Boston,5,10,Cloudy
+2025-10-05,Pepper,36,Philadelphia,5,10,Cloudy
+2025-10-05,Olive Oil,38,New York,5,10,Cloudy
+2025-10-05,Vinegar,17,Boston,5,10,Cloudy
+2025-10-05,Honey,20,Philadelphia,5,10,Cloudy
+2025-10-05,Jam,47,New York,5,10,Cloudy
+2025-10-05,Peanut Butter,28,Boston,5,10,Cloudy
+2025-10-05,Almonds,38,Philadelphia,5,10,Cloudy
+2025-10-05,Lettuce,23,New York,5,10,Cloudy
+2025-10-05,Bell Peppers,34,Boston,5,10,Cloudy
+2025-10-05,Spinach,24,Philadelphia,5,10,Cloudy
+2025-10-05,Carrots,32,New York,5,10,Cloudy
+2025-10-05,Cooking Oil,30,Boston,5,10,Cloudy
+2025-10-05,Cake Mixes,34,Philadelphia,5,10,Cloudy
+2025-11-01,Bananas,40,New York,1,11,Cloudy
+2025-11-01,Apples,31,New York,1,11,Cloudy
+2025-11-01,Milk,31,New York,1,11,Cloudy
+2025-11-01,Bread,39,Boston,1,11,Cloudy
+2025-11-01,Eggs,9,Boston,1,11,Cloudy
+2025-11-01,Orange Juice,56,Boston,1,11,Cloudy
+2025-11-01,Rice,67,Philadelphia,1,11,Cloudy
+2025-11-01,Chicken,76,Philadelphia,1,11,Cloudy
+2025-11-01,Hot Chocolate,96,New York,1,11,Cloudy
+2025-11-01,Soup,81,New York,1,11,Cloudy
+2025-11-01,Breadsticks,60,Boston,1,11,Cloudy
+2025-11-01,Potatoes,55,Philadelphia,1,11,Cloudy
+2025-11-01,Beef,26,Philadelphia,1,11,Cloudy
+2025-11-01,Cheese,45,New York,1,11,Cloudy
+2025-11-01,Yogurt,11,Philadelphia,1,11,Cloudy
+2025-11-01,Butter,48,Boston,1,11,Cloudy
+2025-11-01,Cereal,29,New York,1,11,Cloudy
+2025-11-01,Pasta,59,Philadelphia,1,11,Cloudy
+2025-11-01,Tomatoes,74,New York,1,11,Cloudy
+2025-11-01,Onions,64,Boston,1,11,Cloudy
+2025-11-01,Flour,56,Philadelphia,1,11,Cloudy
+2025-11-01,Sugar,59,New York,1,11,Cloudy
+2025-11-01,Salt,42,Boston,1,11,Cloudy
+2025-11-01,Pepper,46,Philadelphia,1,11,Cloudy
+2025-11-01,Olive Oil,27,New York,1,11,Cloudy
+2025-11-01,Vinegar,38,Boston,1,11,Cloudy
+2025-11-01,Honey,43,Philadelphia,1,11,Cloudy
+2025-11-01,Jam,26,New York,1,11,Cloudy
+2025-11-01,Peanut Butter,24,Boston,1,11,Cloudy
+2025-11-01,Almonds,46,Philadelphia,1,11,Cloudy
+2025-11-01,Lettuce,43,New York,1,11,Cloudy
+2025-11-01,Bell Peppers,54,Boston,1,11,Cloudy
+2025-11-01,Spinach,51,Philadelphia,1,11,Cloudy
+2025-11-01,Carrots,29,New York,1,11,Cloudy
+2025-11-01,Cooking Oil,26,Boston,1,11,Cloudy
+2025-11-01,Cake Mixes,28,Philadelphia,1,11,Cloudy
+2025-11-01,Soft Drinks,22,New York,1,11,Cloudy
+2025-11-01,Ice Cream,16,Boston,1,11,Cloudy
+2025-11-02,Bananas,82,New York,2,11,Rainy
+2025-11-02,Apples,67,New York,2,11,Rainy
+2025-11-02,Milk,51,New York,2,11,Rainy
+2025-11-02,Bread,57,Boston,2,11,Rainy
+2025-11-02,Eggs,28,Boston,2,11,Rainy
+2025-11-02,Orange Juice,3,Boston,2,11,Rainy
+2025-11-02,Rice,29,Philadelphia,2,11,Rainy
+2025-11-02,Chicken,12,Philadelphia,2,11,Rainy
+2025-11-02,Hot Chocolate,73,New York,2,11,Rainy
+2025-11-02,Soup,93,New York,2,11,Rainy
+2025-11-02,Breadsticks,72,Boston,2,11,Rainy
+2025-11-02,Potatoes,53,Philadelphia,2,11,Rainy
+2025-11-02,Beef,68,Philadelphia,2,11,Rainy
+2025-11-02,Cheese,49,New York,2,11,Rainy
+2025-11-02,Yogurt,14,Philadelphia,2,11,Rainy
+2025-11-02,Butter,10,Boston,2,11,Rainy
+2025-11-02,Cereal,90,New York,2,11,Rainy
+2025-11-02,Pasta,24,Philadelphia,2,11,Rainy
+2025-11-02,Tomatoes,22,New York,2,11,Rainy
+2025-11-02,Onions,17,Boston,2,11,Rainy
+2025-11-02,Flour,32,Philadelphia,2,11,Rainy
+2025-11-02,Sugar,19,New York,2,11,Rainy
+2025-11-02,Salt,27,Boston,2,11,Rainy
+2025-11-02,Pepper,20,Philadelphia,2,11,Rainy
+2025-11-02,Olive Oil,35,New York,2,11,Rainy
+2025-11-02,Vinegar,34,Boston,2,11,Rainy
+2025-11-02,Honey,27,Philadelphia,2,11,Rainy
+2025-11-02,Jam,48,New York,2,11,Rainy
+2025-11-02,Peanut Butter,45,Boston,2,11,Rainy
+2025-11-02,Almonds,49,Philadelphia,2,11,Rainy
+2025-11-02,Lettuce,8,New York,2,11,Rainy
+2025-11-02,Bell Peppers,20,Boston,2,11,Rainy
+2025-11-02,Spinach,33,Philadelphia,2,11,Rainy
+2025-11-02,Carrots,35,New York,2,11,Rainy
+2025-11-02,Cooking Oil,44,Boston,2,11,Rainy
+2025-11-02,Cake Mixes,29,Philadelphia,2,11,Rainy
+2025-11-02,Soft Drinks,19,New York,2,11,Rainy
+2025-11-02,Ice Cream,5,Boston,2,11,Rainy
+2025-11-03,Bananas,45,New York,3,11,Sunny
+2025-11-03,Apples,74,New York,3,11,Sunny
+2025-11-03,Milk,44,New York,3,11,Sunny
+2025-11-03,Bread,53,Boston,3,11,Sunny
+2025-11-03,Eggs,9,Boston,3,11,Sunny
+2025-11-03,Orange Juice,37,Boston,3,11,Sunny
+2025-11-03,Rice,90,Philadelphia,3,11,Sunny
+2025-11-03,Chicken,78,Philadelphia,3,11,Sunny
+2025-11-03,Hot Chocolate,117,New York,3,11,Sunny
+2025-11-03,Soup,26,New York,3,11,Sunny
+2025-11-03,Breadsticks,44,Boston,3,11,Sunny
+2025-11-03,Potatoes,19,Philadelphia,3,11,Sunny
+2025-11-03,Beef,7,Philadelphia,3,11,Sunny
+2025-11-03,Cheese,43,New York,3,11,Sunny
+2025-11-03,Yogurt,11,Philadelphia,3,11,Sunny
+2025-11-03,Butter,44,Boston,3,11,Sunny
+2025-11-03,Cereal,27,New York,3,11,Sunny
+2025-11-03,Pasta,27,Philadelphia,3,11,Sunny
+2025-11-03,Tomatoes,59,New York,3,11,Sunny
+2025-11-03,Onions,82,Boston,3,11,Sunny
+2025-11-03,Flour,17,Philadelphia,3,11,Sunny
+2025-11-03,Sugar,33,New York,3,11,Sunny
+2025-11-03,Salt,30,Boston,3,11,Sunny
+2025-11-03,Pepper,16,Philadelphia,3,11,Sunny
+2025-11-03,Olive Oil,52,New York,3,11,Sunny
+2025-11-03,Vinegar,9,Boston,3,11,Sunny
+2025-11-03,Honey,45,Philadelphia,3,11,Sunny
+2025-11-03,Jam,19,New York,3,11,Sunny
+2025-11-03,Peanut Butter,58,Boston,3,11,Sunny
+2025-11-03,Almonds,12,Philadelphia,3,11,Sunny
+2025-11-03,Lettuce,31,New York,3,11,Sunny
+2025-11-03,Bell Peppers,69,Boston,3,11,Sunny
+2025-11-03,Spinach,20,Philadelphia,3,11,Sunny
+2025-11-03,Carrots,15,New York,3,11,Sunny
+2025-11-03,Cooking Oil,61,Boston,3,11,Sunny
+2025-11-03,Cake Mixes,24,Philadelphia,3,11,Sunny
+2025-11-03,Soft Drinks,21,New York,3,11,Sunny
+2025-11-03,Ice Cream,20,Boston,3,11,Sunny
+2025-11-04,Bananas,9,New York,4,11,Cloudy
+2025-11-04,Apples,92,New York,4,11,Cloudy
+2025-11-04,Milk,20,New York,4,11,Cloudy
+2025-11-04,Bread,45,Boston,4,11,Cloudy
+2025-11-04,Eggs,19,Boston,4,11,Cloudy
+2025-11-04,Orange Juice,39,Boston,4,11,Cloudy
+2025-11-04,Rice,81,Philadelphia,4,11,Cloudy
+2025-11-04,Chicken,38,Philadelphia,4,11,Cloudy
+2025-11-04,Hot Chocolate,32,New York,4,11,Cloudy
+2025-11-04,Soup,72,New York,4,11,Cloudy
+2025-11-04,Breadsticks,65,Boston,4,11,Cloudy
+2025-11-04,Potatoes,46,Philadelphia,4,11,Cloudy
+2025-11-04,Beef,57,Philadelphia,4,11,Cloudy
+2025-11-04,Cheese,58,New York,4,11,Cloudy
+2025-11-04,Yogurt,21,Philadelphia,4,11,Cloudy
+2025-11-04,Butter,49,Boston,4,11,Cloudy
+2025-11-04,Cereal,60,New York,4,11,Cloudy
+2025-11-04,Pasta,57,Philadelphia,4,11,Cloudy
+2025-11-04,Tomatoes,87,New York,4,11,Cloudy
+2025-11-04,Onions,62,Boston,4,11,Cloudy
+2025-11-04,Flour,38,Philadelphia,4,11,Cloudy
+2025-11-04,Sugar,55,New York,4,11,Cloudy
+2025-11-04,Salt,23,Boston,4,11,Cloudy
+2025-11-04,Pepper,37,Philadelphia,4,11,Cloudy
+2025-11-04,Olive Oil,27,New York,4,11,Cloudy
+2025-11-04,Vinegar,36,Boston,4,11,Cloudy
+2025-11-04,Honey,53,Philadelphia,4,11,Cloudy
+2025-11-04,Jam,28,New York,4,11,Cloudy
+2025-11-04,Peanut Butter,60,Boston,4,11,Cloudy
+2025-11-04,Almonds,38,Philadelphia,4,11,Cloudy
+2025-11-04,Lettuce,37,New York,4,11,Cloudy
+2025-11-04,Bell Peppers,41,Boston,4,11,Cloudy
+2025-11-04,Spinach,33,Philadelphia,4,11,Cloudy
+2025-11-04,Carrots,17,New York,4,11,Cloudy
+2025-11-04,Cooking Oil,19,Boston,4,11,Cloudy
+2025-11-04,Cake Mixes,45,Philadelphia,4,11,Cloudy
+2025-11-04,Soft Drinks,5,New York,4,11,Cloudy
+2025-11-04,Ice Cream,8,Boston,4,11,Cloudy
+2025-11-05,Bananas,74,New York,5,11,Cloudy
+2025-11-05,Apples,36,New York,5,11,Cloudy
+2025-11-05,Milk,54,New York,5,11,Cloudy
+2025-11-05,Bread,26,Boston,5,11,Cloudy
+2025-11-05,Eggs,15,Boston,5,11,Cloudy
+2025-11-05,Orange Juice,55,Boston,5,11,Cloudy
+2025-11-05,Rice,43,Philadelphia,5,11,Cloudy
+2025-11-05,Chicken,56,Philadelphia,5,11,Cloudy
+2025-11-05,Hot Chocolate,92,New York,5,11,Cloudy
+2025-11-05,Soup,88,New York,5,11,Cloudy
+2025-11-05,Breadsticks,59,Boston,5,11,Cloudy
+2025-11-05,Potatoes,67,Philadelphia,5,11,Cloudy
+2025-11-05,Beef,42,Philadelphia,5,11,Cloudy
+2025-11-05,Cheese,35,New York,5,11,Cloudy
+2025-11-05,Yogurt,13,Philadelphia,5,11,Cloudy
+2025-11-05,Butter,29,Boston,5,11,Cloudy
+2025-11-05,Cereal,44,New York,5,11,Cloudy
+2025-11-05,Pasta,43,Philadelphia,5,11,Cloudy
+2025-11-05,Tomatoes,28,New York,5,11,Cloudy
+2025-11-05,Onions,35,Boston,5,11,Cloudy
+2025-11-05,Flour,57,Philadelphia,5,11,Cloudy
+2025-11-05,Sugar,44,New York,5,11,Cloudy
+2025-11-05,Salt,48,Boston,5,11,Cloudy
+2025-11-05,Pepper,41,Philadelphia,5,11,Cloudy
+2025-11-05,Olive Oil,39,New York,5,11,Cloudy
+2025-11-05,Vinegar,33,Boston,5,11,Cloudy
+2025-11-05,Honey,22,Philadelphia,5,11,Cloudy
+2025-11-05,Jam,49,New York,5,11,Cloudy
+2025-11-05,Peanut Butter,33,Boston,5,11,Cloudy
+2025-11-05,Almonds,55,Philadelphia,5,11,Cloudy
+2025-11-05,Lettuce,41,New York,5,11,Cloudy
+2025-11-05,Bell Peppers,26,Boston,5,11,Cloudy
+2025-11-05,Spinach,53,Philadelphia,5,11,Cloudy
+2025-11-05,Carrots,34,New York,5,11,Cloudy
+2025-11-05,Cooking Oil,40,Boston,5,11,Cloudy
+2025-11-05,Cake Mixes,24,Philadelphia,5,11,Cloudy
+2025-11-05,Soft Drinks,23,New York,5,11,Cloudy
+2025-11-05,Ice Cream,11,Boston,5,11,Cloudy
+2025-12-01,Bananas,74,New York,1,12,Sunny
+2025-12-01,Apples,62,New York,1,12,Sunny
+2025-12-01,Milk,54,New York,1,12,Sunny
+2025-12-01,Bread,68,Boston,1,12,Sunny
+2025-12-01,Eggs,17,Boston,1,12,Sunny
+2025-12-01,Orange Juice,50,Boston,1,12,Sunny
+2025-12-01,Rice,63,Philadelphia,1,12,Sunny
+2025-12-01,Chicken,77,Philadelphia,1,12,Sunny
+2025-12-01,Hot Chocolate,55,New York,1,12,Sunny
+2025-12-01,Soup,60,New York,1,12,Sunny
+2025-12-01,Breadsticks,57,Boston,1,12,Sunny
+2025-12-01,Potatoes,42,Philadelphia,1,12,Sunny
+2025-12-01,Beef,51,Philadelphia,1,12,Sunny
+2025-12-01,Cheese,36,New York,1,12,Sunny
+2025-12-01,Yogurt,10,Philadelphia,1,12,Sunny
+2025-12-01,Butter,55,Boston,1,12,Sunny
+2025-12-01,Cereal,47,New York,1,12,Sunny
+2025-12-01,Pasta,56,Philadelphia,1,12,Sunny
+2025-12-01,Tomatoes,42,New York,1,12,Sunny
+2025-12-01,Onions,62,Boston,1,12,Sunny
+2025-12-01,Flour,38,Philadelphia,1,12,Sunny
+2025-12-01,Sugar,62,New York,1,12,Sunny
+2025-12-01,Salt,43,Boston,1,12,Sunny
+2025-12-01,Pepper,43,Philadelphia,1,12,Sunny
+2025-12-01,Olive Oil,29,New York,1,12,Sunny
+2025-12-01,Vinegar,32,Boston,1,12,Sunny
+2025-12-01,Honey,47,Philadelphia,1,12,Sunny
+2025-12-01,Jam,35,New York,1,12,Sunny
+2025-12-01,Peanut Butter,56,Boston,1,12,Sunny
+2025-12-01,Almonds,62,Philadelphia,1,12,Sunny
+2025-12-01,Lettuce,31,New York,1,12,Sunny
+2025-12-01,Bell Peppers,26,Boston,1,12,Sunny
+2025-12-01,Spinach,25,Philadelphia,1,12,Sunny
+2025-12-01,Carrots,24,New York,1,12,Sunny
+2025-12-01,Cooking Oil,36,Boston,1,12,Sunny
+2025-12-01,Cake Mixes,26,Philadelphia,1,12,Sunny
+2025-12-01,Soft Drinks,14,New York,1,12,Sunny
+2025-12-01,Ice Cream,9,Boston,1,12,Sunny
+2025-12-02,Bananas,41,New York,2,12,Snowy
+2025-12-02,Apples,63,New York,2,12,Snowy
+2025-12-02,Milk,24,New York,2,12,Snowy
+2025-12-02,Bread,40,Boston,2,12,Snowy
+2025-12-02,Eggs,15,Boston,2,12,Snowy
+2025-12-02,Orange Juice,25,Boston,2,12,Snowy
+2025-12-02,Rice,41,Philadelphia,2,12,Snowy
+2025-12-02,Chicken,19,Philadelphia,2,12,Snowy
+2025-12-02,Hot Chocolate,138,New York,2,12,Snowy
+2025-12-02,Soup,68,New York,2,12,Snowy
+2025-12-02,Breadsticks,54,Boston,2,12,Snowy
+2025-12-02,Potatoes,55,Philadelphia,2,12,Snowy
+2025-12-02,Beef,44,Philadelphia,2,12,Snowy
+2025-12-02,Cheese,65,New York,2,12,Snowy
+2025-12-02,Yogurt,24,Philadelphia,2,12,Snowy
+2025-12-02,Butter,3,Boston,2,12,Snowy
+2025-12-02,Cereal,38,New York,2,12,Snowy
+2025-12-02,Pasta,38,Philadelphia,2,12,Snowy
+2025-12-02,Tomatoes,65,New York,2,12,Snowy
+2025-12-02,Onions,72,Boston,2,12,Snowy
+2025-12-02,Flour,30,Philadelphia,2,12,Snowy
+2025-12-02,Sugar,38,New York,2,12,Snowy
+2025-12-02,Salt,39,Boston,2,12,Snowy
+2025-12-02,Pepper,34,Philadelphia,2,12,Snowy
+2025-12-02,Olive Oil,50,New York,2,12,Snowy
+2025-12-02,Vinegar,44,Boston,2,12,Snowy
+2025-12-02,Honey,44,Philadelphia,2,12,Snowy
+2025-12-02,Jam,46,New York,2,12,Snowy
+2025-12-02,Peanut Butter,52,Boston,2,12,Snowy
+2025-12-02,Almonds,34,Philadelphia,2,12,Snowy
+2025-12-02,Lettuce,53,New York,2,12,Snowy
+2025-12-02,Bell Peppers,51,Boston,2,12,Snowy
+2025-12-02,Spinach,65,Philadelphia,2,12,Snowy
+2025-12-02,Carrots,42,New York,2,12,Snowy
+2025-12-02,Cooking Oil,54,Boston,2,12,Snowy
+2025-12-02,Cake Mixes,48,Philadelphia,2,12,Snowy
+2025-12-02,Soft Drinks,25,New York,2,12,Snowy
+2025-12-02,Ice Cream,9,Boston,2,12,Snowy
+2025-12-03,Bananas,53,New York,3,12,Cloudy
+2025-12-03,Apples,69,New York,3,12,Cloudy
+2025-12-03,Milk,55,New York,3,12,Cloudy
+2025-12-03,Bread,13,Boston,3,12,Cloudy
+2025-12-03,Eggs,8,Boston,3,12,Cloudy
+2025-12-03,Orange Juice,35,Boston,3,12,Cloudy
+2025-12-03,Rice,97,Philadelphia,3,12,Cloudy
+2025-12-03,Chicken,59,Philadelphia,3,12,Cloudy
+2025-12-03,Hot Chocolate,71,New York,3,12,Cloudy
+2025-12-03,Soup,60,New York,3,12,Cloudy
+2025-12-03,Breadsticks,53,Boston,3,12,Cloudy
+2025-12-03,Potatoes,75,Philadelphia,3,12,Cloudy
+2025-12-03,Beef,28,Philadelphia,3,12,Cloudy
+2025-12-03,Cheese,59,New York,3,12,Cloudy
+2025-12-03,Yogurt,13,Philadelphia,3,12,Cloudy
+2025-12-03,Butter,65,Boston,3,12,Cloudy
+2025-12-03,Cereal,58,New York,3,12,Cloudy
+2025-12-03,Pasta,49,Philadelphia,3,12,Cloudy
+2025-12-03,Tomatoes,72,New York,3,12,Cloudy
+2025-12-03,Onions,53,Boston,3,12,Cloudy
+2025-12-03,Flour,64,Philadelphia,3,12,Cloudy
+2025-12-03,Sugar,22,New York,3,12,Cloudy
+2025-12-03,Salt,21,Boston,3,12,Cloudy
+2025-12-03,Pepper,14,Philadelphia,3,12,Cloudy
+2025-12-03,Olive Oil,51,New York,3,12,Cloudy
+2025-12-03,Vinegar,28,Boston,3,12,Cloudy
+2025-12-03,Honey,25,Philadelphia,3,12,Cloudy
+2025-12-03,Jam,30,New York,3,12,Cloudy
+2025-12-03,Peanut Butter,52,Boston,3,12,Cloudy
+2025-12-03,Almonds,45,Philadelphia,3,12,Cloudy
+2025-12-03,Lettuce,9,New York,3,12,Cloudy
+2025-12-03,Bell Peppers,43,Boston,3,12,Cloudy
+2025-12-03,Spinach,39,Philadelphia,3,12,Cloudy
+2025-12-03,Carrots,17,New York,3,12,Cloudy
+2025-12-03,Cooking Oil,31,Boston,3,12,Cloudy
+2025-12-03,Cake Mixes,32,Philadelphia,3,12,Cloudy
+2025-12-03,Soft Drinks,25,New York,3,12,Cloudy
+2025-12-03,Ice Cream,9,Boston,3,12,Cloudy
+2025-12-04,Bananas,33,New York,4,12,Snowy
+2025-12-04,Apples,24,New York,4,12,Snowy
+2025-12-04,Milk,26,New York,4,12,Snowy
+2025-12-04,Bread,80,Boston,4,12,Snowy
+2025-12-04,Eggs,13,Boston,4,12,Snowy
+2025-12-04,Orange Juice,53,Boston,4,12,Snowy
+2025-12-04,Rice,68,Philadelphia,4,12,Snowy
+2025-12-04,Chicken,62,Philadelphia,4,12,Snowy
+2025-12-04,Hot Chocolate,112,New York,4,12,Snowy
+2025-12-04,Soup,113,New York,4,12,Snowy
+2025-12-04,Breadsticks,70,Boston,4,12,Snowy
+2025-12-04,Potatoes,10,Philadelphia,4,12,Snowy
+2025-12-04,Beef,51,Philadelphia,4,12,Snowy
+2025-12-04,Cheese,40,New York,4,12,Snowy
+2025-12-04,Yogurt,21,Philadelphia,4,12,Snowy
+2025-12-04,Butter,16,Boston,4,12,Snowy
+2025-12-04,Cereal,80,New York,4,12,Snowy
+2025-12-04,Pasta,38,Philadelphia,4,12,Snowy
+2025-12-04,Tomatoes,28,New York,4,12,Snowy
+2025-12-04,Onions,54,Boston,4,12,Snowy
+2025-12-04,Flour,45,Philadelphia,4,12,Snowy
+2025-12-04,Sugar,42,New York,4,12,Snowy
+2025-12-04,Salt,32,Boston,4,12,Snowy
+2025-12-04,Pepper,37,Philadelphia,4,12,Snowy
+2025-12-04,Olive Oil,35,New York,4,12,Snowy
+2025-12-04,Vinegar,10,Boston,4,12,Snowy
+2025-12-04,Honey,47,Philadelphia,4,12,Snowy
+2025-12-04,Jam,18,New York,4,12,Snowy
+2025-12-04,Peanut Butter,6,Boston,4,12,Snowy
+2025-12-04,Almonds,35,Philadelphia,4,12,Snowy
+2025-12-04,Lettuce,53,New York,4,12,Snowy
+2025-12-04,Bell Peppers,65,Boston,4,12,Snowy
+2025-12-04,Spinach,12,Philadelphia,4,12,Snowy
+2025-12-04,Carrots,29,New York,4,12,Snowy
+2025-12-04,Cooking Oil,35,Boston,4,12,Snowy
+2025-12-04,Cake Mixes,33,Philadelphia,4,12,Snowy
+2025-12-04,Soft Drinks,13,New York,4,12,Snowy
+2025-12-04,Ice Cream,9,Boston,4,12,Snowy
+2025-12-05,Bananas,59,New York,5,12,Cloudy
+2025-12-05,Apples,92,New York,5,12,Cloudy
+2025-12-05,Milk,51,New York,5,12,Cloudy
+2025-12-05,Bread,29,Boston,5,12,Cloudy
+2025-12-05,Eggs,17,Boston,5,12,Cloudy
+2025-12-05,Orange Juice,37,Boston,5,12,Cloudy
+2025-12-05,Rice,51,Philadelphia,5,12,Cloudy
+2025-12-05,Chicken,53,Philadelphia,5,12,Cloudy
+2025-12-05,Hot Chocolate,44,New York,5,12,Cloudy
+2025-12-05,Soup,69,New York,5,12,Cloudy
+2025-12-05,Breadsticks,76,Boston,5,12,Cloudy
+2025-12-05,Potatoes,68,Philadelphia,5,12,Cloudy
+2025-12-05,Beef,36,Philadelphia,5,12,Cloudy
+2025-12-05,Cheese,40,New York,5,12,Cloudy
+2025-12-05,Yogurt,12,Philadelphia,5,12,Cloudy
+2025-12-05,Butter,51,Boston,5,12,Cloudy
+2025-12-05,Cereal,37,New York,5,12,Cloudy
+2025-12-05,Pasta,39,Philadelphia,5,12,Cloudy
+2025-12-05,Tomatoes,73,New York,5,12,Cloudy
+2025-12-05,Onions,29,Boston,5,12,Cloudy
+2025-12-05,Flour,33,Philadelphia,5,12,Cloudy
+2025-12-05,Sugar,56,New York,5,12,Cloudy
+2025-12-05,Salt,45,Boston,5,12,Cloudy
+2025-12-05,Pepper,42,Philadelphia,5,12,Cloudy
+2025-12-05,Olive Oil,25,New York,5,12,Cloudy
+2025-12-05,Vinegar,46,Boston,5,12,Cloudy
+2025-12-05,Honey,37,Philadelphia,5,12,Cloudy
+2025-12-05,Jam,51,New York,5,12,Cloudy
+2025-12-05,Peanut Butter,64,Boston,5,12,Cloudy
+2025-12-05,Almonds,34,Philadelphia,5,12,Cloudy
+2025-12-05,Lettuce,24,New York,5,12,Cloudy
+2025-12-05,Bell Peppers,35,Boston,5,12,Cloudy
+2025-12-05,Spinach,59,Philadelphia,5,12,Cloudy
+2025-12-05,Carrots,28,New York,5,12,Cloudy
+2025-12-05,Cooking Oil,44,Boston,5,12,Cloudy
+2025-12-05,Cake Mixes,21,Philadelphia,5,12,Cloudy
+2025-12-05,Soft Drinks,23,New York,5,12,Cloudy
+2025-12-05,Ice Cream,14,Boston,5,12,Cloudy
+

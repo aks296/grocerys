@@ -1,0 +1,42 @@
+<ion-content [fullscreen]="true">
+  <div class="order-sucess-top">
+    <ion-icon name="checkmark-circle"></ion-icon>
+    <h2>Order Placed!</h2>
+    <p>
+      Your order was placed successfully. <br />For more details check Delivery
+      Status <br />under order tab
+    </p>
+    <ion-button expand="block" (click)="viewOrderDetails()">View Order Details</ion-button>
+  </div>
+
+  <div class="order-sucess-bottom ion-padding ion-margin-bottom">
+    <div class="dailyDeals">
+      <h1>Item List</h1>
+      <span>View All</span>
+    </div>
+
+    <div
+      class="dailyDealList"
+      *ngFor="let product of this.orderServices.recentOrderDetails[0].orderData"
+    >
+      <div class="productWrapper">
+        <div class="ion-text-center">
+          <img
+            src="../../assets/img/{{ product.name.toLowerCase() }}.png"
+            alt="{{product.name}}"
+          />
+          <span>10% Off</span>
+        </div>
+        <div>
+          <div class="productName">{{product.name}}</div>
+          <div class="productVariant">{{product.variant}}</div>
+        </div>
+        <div>
+          <div class="productActionRow">
+            <div class="productPrice">&#8377;{{product.price}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>

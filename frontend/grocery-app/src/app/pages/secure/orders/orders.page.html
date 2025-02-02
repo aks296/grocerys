@@ -1,0 +1,229 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Orders</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button
+        text=""
+        icon="arrow-back"
+        defaultHref="tabs/home"
+      ></ion-back-button>
+      </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div
+    class="ion-padding-horizontal"
+    *ngIf="localStorage.getItem('loggedIn'); else notAuthenticated"
+  >
+    <div class="orderList" *ngFor="let order of this.orderServices.orderDetail">
+      <div
+        class="orderWrapper"
+        (click)="openOrderDetails(order)"
+        *ngIf="localStorage.getItem('userType')?.toLowerCase() === 'customer'"
+      >
+        <div>
+          <img
+            src="../../assets/img/{{ order.products[0].productName.toLowerCase() }}.png"
+            alt="{{order.products[0].productName}}"
+          />
+        </div>
+        <div>
+          <div class="orderNumber">Order Number: {{order?.orderId}}</div>
+          <div class="orderDetails">
+            <div>{{order?.orderDate}}</div>
+            <div>Total Amount: &#8377;{{order?.totalOrderPrice}}</div>
+          </div>
+          <div
+            [ngClass]="{
+            'inprogressStatus': order?.progressStatus === 'In Progress',
+            'cancelledStatus': order?.progressStatus === 'Canceled',
+            'deliveredStatus': order?.progressStatus === 'Delivered'
+          }"
+          >
+            {{order?.progressStatus}}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- admin view -->
+    <div
+      *ngIf="localStorage.getItem('userType')?.toLowerCase() === 'admin'"
+      class="orderList"
+    >
+      <h1>Admin View - Aggregated Product Requirements</h1>
+
+      <!-- Admin input for selecting city and building -->
+      <ion-item>
+        <ion-label>Select Area</ion-label>
+        <ion-select [(ngModel)]="selectedCity" label="Select City">
+          <ion-select-option value="Lucknow">Lucknow</ion-select-option>
+          <ion-select-option value="Kanpur">Kanpur</ion-select-option>
+          <ion-select-option value="Delhi">Delhi</ion-select-option>
+          <!-- Add more options based on your cities -->
+        </ion-select>
+      </ion-item>
+      <ion-item>
+        <ion-label>Select Area</ion-label>
+        <ion-select [(ngModel)]="selectedArea" label="Select Area">
+          <ion-select-option value="Sector-10">Sector-10</ion-select-option>
+          <ion-select-option value="Sector-11">Sector-11</ion-select-option>
+          <ion-select-option value="Sector-12">Sector-12</ion-select-option>
+          <!-- Add more options based on your cities -->
+        </ion-select>
+      </ion-item>
+
+      <ion-item>
+        <ion-select [(ngModel)]="selectedBuilding" label="Select Building">
+          Populate buildings based on the selected city
+          <ion-select-option value="Mahagun Mantraa"
+            >Mahagun Mantraa</ion-select-option
+          >
+          <ion-select-option value="Amaatra Homes"
+            >Amaatra Homes</ion-select-option
+          >
+          <ion-select-option value="Sangam Homes"
+            >Sangam Homes</ion-select-option
+          >
+          <!-- Add more options based on your buildings -->
+        </ion-select>
+      </ion-item>
+
+      <ion-button
+        (click)="this.orderServices.fetchAggregatedRequirements(selectedCity, selectedArea, selectedBuilding)"
+        >Fetch Aggregated Requirements</ion-button
+      >
+
+      <!-- Display aggregated requirements -->
+      <div class="cartProductList">
+        <div
+          *ngFor="let product of this.orderServices.aggregatedRequirements"
+          class="cartProductWrapper"
+        >
+          <img
+            src="../../assets/img/{{ product.productName.toLowerCase() }}.png"
+            alt="{{product.productName}}"
+          />
+          <div>
+            <div>Product ID: {{ product.productId }}</div>
+            <div class="productName">
+              Product Name: {{ product.productName }}
+            </div>
+            <div class="productVariant">Variant: {{ product.variant }}</div>
+            <div class="cartQtyAmount">
+              <div class="qtyCount">{{ product.totalQuantity }}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- building superwiser view -->
+    <div
+      *ngIf="localStorage.getItem('userType')?.toLowerCase() === 'buildingsuperwiser'"
+      class="orderList"
+    >
+      <h1>BS</h1>
+
+      <!-- Building superwiser view input for selecting city and building -->
+
+      <ion-item>
+        <!-- <ion-label>Select Area</ion-label> -->
+        <ion-select [(ngModel)]="selectedCity" label="Select City">
+          <ion-select-option [value]="localStorage.getItem('city')"
+            >{{localStorage.getItem('city')}}</ion-select-option
+          >
+          <!-- Add more options based on your cities -->
+        </ion-select>
+      </ion-item>
+
+      <ion-item>
+        <!-- <ion-label>Select Area</ion-label> -->
+        <ion-select [(ngModel)]="selectedArea" label="Select Area">
+          <ion-select-option [value]="localStorage.getItem('area')"
+            >{{localStorage.getItem('area')}}</ion-select-option
+          >
+          <!-- Add more options based on your cities -->
+        </ion-select>
+      </ion-item>
+
+      <ion-item>
+        <ion-select [(ngModel)]="selectedBuilding" label="Select Building">
+          <!-- Populate buildings based on the selected city -->
+          <ion-select-option [value]="localStorage.getItem('building')"
+            >{{localStorage.getItem('building')}}</ion-select-option
+          >
+          <!-- Loop required when one will be admin of multiple building -->
+        </ion-select>
+      </ion-item>
+
+      <ion-button
+        (click)="this.orderServices.fetchAggregatedRequirements(selectedCity, selectedArea, selectedBuilding)"
+        [color]="this.orderServices.isAggregateRequirementsRequired ? 'primary' : 'medium'"
+        >Fetch Aggregated Requirements</ion-button
+      >
+      <ion-button
+        (click)="this.orderServices.fetchOrdersInformationOfFlat(selectedCity, selectedArea, selectedBuilding)"
+        [color]="this.orderServices.isAggregateRequirementsRequired ? 'medium' : 'primary'"
+        >fetch order by flat</ion-button
+      >
+
+      <!-- Display aggregated requirements -->
+      <div
+        class="cartProductList"
+        *ngIf="this.orderServices.isAggregateRequirementsRequired else flastwiseRequirementRequired"
+      >
+        <div
+          *ngFor="let product of this.orderServices.aggregatedRequirements"
+          class="cartProductWrapper"
+        >
+          <img
+            src="../../assets/img/{{ product.productName.toLowerCase() }}.png"
+            alt="{{product.productName}}"
+          />
+          <div>
+            <div>Product ID: {{ product.productId }}</div>
+            <div class="productName">
+              Product Name: {{ product.productName }}
+            </div>
+            <div class="productVariant">Variant: {{ product.variant }}</div>
+            <div class="cartQtyAmount">
+              <div class="qtyCount">{{ product.totalQuantity }}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Display flatwise requirements -->
+      <ng-template #flastwiseRequirementRequired>
+        <div
+          *ngFor="let flatOrder of this.orderServices.flatOrders"
+          class="orderList"
+        >
+          <div
+            (click)="this.orderServices.openFlatOrderDetail(flatOrder)"
+            class="orderWrapper"
+          >
+            <div class="orderNumber">
+              Flat Number: {{ flatOrder.flatNumber }}
+            </div>
+            <div class="orderNumber">
+              Order Number: {{ flatOrder.orderDetails[0].orderId }}
+            </div>
+          </div>
+        </div>
+      </ng-template>
+    </div>
+  </div>
+
+  <ng-template #notAuthenticated>
+    <!-- Not authenticated template -->
+    <div class="ion-padding">
+      <p>
+        Please <a href="#" (click)="login($event)">Login</a> to view the order
+        details.
+      </p>
+    </div>
+  </ng-template>
+</ion-content>
